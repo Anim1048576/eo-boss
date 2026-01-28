@@ -1,0 +1,56 @@
+{
+  "sourceFile": "[보스] 태초의 원석 - 아우룸.txt",
+  "titleLine": "태초의 원석 - 아우룸",
+  "bossTitle": "태초의 원석",
+  "bossNameHintFromTitle": "아우룸",
+  "quest": {
+    "issuer": "에오르디아의 탐사원",
+    "title": "**!설산!** 탐사 인원 모집",
+    "reward": {
+      "gold": 70,
+      "xp": 15,
+      "raw": "70G / 15XP"
+    },
+    "recommendedParty": "?",
+    "recommendedRoles": "?",
+    "difficulty": "상",
+    "sessionDate": "2026-01-09"
+  },
+  "bosses": [
+    {
+      "phase": 1,
+      "statsParsed": {
+        "raw": {
+          "이름": "아우룸",
+          "생명점": "200",
+          "이동력": "4",
+          "맵 크기": "19×19",
+          "보스 크기": "7×5",
+          "대응 판정": "4B6",
+          "백병 승리 피해": "《내려치기》",
+          "백병 패배 피해": "1D6/2U"
+        },
+        "name": "아우룸",
+        "hp": {
+          "raw": "200",
+          "base": 200,
+          "start": 200
+        },
+        "move": 4,
+        "mapSize": {
+          "width": 19,
+          "height": 19,
+          "raw": "19×19"
+        },
+        "bossSize": {
+          "width": 7,
+          "height": 5,
+          "raw": "7×5"
+        },
+        "counterCheck": "4B6",
+        "meleeWinDamage": "《내려치기》",
+        "meleeLoseDamage": "1D6/2U"
+      }
+    }
+  ]
+}

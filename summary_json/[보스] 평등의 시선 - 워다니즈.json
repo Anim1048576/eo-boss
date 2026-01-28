@@ -1,0 +1,56 @@
+{
+  "sourceFile": "[보스] 평등의 시선 - 워다니즈.txt",
+  "titleLine": "평등의 시선 - 워다니즈",
+  "bossTitle": "평등의 시선",
+  "bossNameHintFromTitle": "워다니즈",
+  "quest": {
+    "issuer": "에오르디아의 탐사원",
+    "title": "침수지 탐사 인원 모집",
+    "reward": {
+      "gold": 40,
+      "xp": 10,
+      "raw": "40G / 10XP"
+    },
+    "recommendedParty": "6인",
+    "recommendedRoles": "백병 능력이 우수한 인원",
+    "difficulty": "권장 인원 기준 상",
+    "sessionDate": "2025-12-30"
+  },
+  "bosses": [
+    {
+      "phase": 1,
+      "statsParsed": {
+        "raw": {
+          "이름": "워다니즈",
+          "생명점": "65",
+          "이동력": "2",
+          "맵 크기": "7×7",
+          "보스 크기": "1×1",
+          "대응 판정": "특화한 판정",
+          "백병 승리 피해": "1D6",
+          "백병 패배 피해": "1D6/2U"
+        },
+        "name": "워다니즈",
+        "hp": {
+          "raw": "65",
+          "base": 65,
+          "start": 65
+        },
+        "move": 2,
+        "mapSize": {
+          "width": 7,
+          "height": 7,
+          "raw": "7×7"
+        },
+        "bossSize": {
+          "width": 1,
+          "height": 1,
+          "raw": "1×1"
+        },
+        "counterCheck": "특화한 판정",
+        "meleeWinDamage": "1D6",
+        "meleeLoseDamage": "1D6/2U"
+      }
+    }
+  ]
+}

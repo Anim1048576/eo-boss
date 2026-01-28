@@ -1,0 +1,56 @@
+{
+  "sourceFile": "[보스] 천체의 주관자 - 코스모.txt",
+  "titleLine": "천체의 주관자 - 코스모",
+  "bossTitle": "천체의 주관자",
+  "bossNameHintFromTitle": "코스모",
+  "quest": {
+    "issuer": "에오르디아의 탐사원",
+    "title": "침수지 탐사 인원 모집",
+    "reward": {
+      "gold": 40,
+      "xp": 10,
+      "raw": "40G / 10XP"
+    },
+    "recommendedParty": "4~10인",
+    "recommendedRoles": "불명",
+    "difficulty": "불명",
+    "sessionDate": "2025-12-23"
+  },
+  "bosses": [
+    {
+      "phase": 1,
+      "statsParsed": {
+        "raw": {
+          "이름": "코스모",
+          "생명점": "75",
+          "이동력": "2",
+          "맵 크기": "11×11",
+          "보스 크기": "1×1",
+          "대응 판정": "1D6 주사위를 12개 굴려 그중 3 이상이 나온 주사위의 개수를 센다.",
+          "백병 승리 피해": "1D6",
+          "백병 패배 피해": "없음"
+        },
+        "name": "코스모",
+        "hp": {
+          "raw": "75",
+          "base": 75,
+          "start": 75
+        },
+        "move": 2,
+        "mapSize": {
+          "width": 11,
+          "height": 11,
+          "raw": "11×11"
+        },
+        "bossSize": {
+          "width": 1,
+          "height": 1,
+          "raw": "1×1"
+        },
+        "counterCheck": "1D6 주사위를 12개 굴려 그중 3 이상이 나온 주사위의 개수를 센다.",
+        "meleeWinDamage": "1D6",
+        "meleeLoseDamage": "없음"
+      }
+    }
+  ]
+}
