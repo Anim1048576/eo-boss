@@ -102,6 +102,7 @@
           ]
         }
       ],
+      "buffs": [],
       "adds": [
         {
           "id": "blackhole_mass",
