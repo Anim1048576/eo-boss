@@ -135,6 +135,9 @@
           "id": "gas_sprayer",
           "name": "가스 살포 시설",
           "group": "시설",
+          "sourcePassive": "《흥분》",
+          "destroyable": true,
+          "damageable": true,
           "count": 4,
           "size": {
             "width": 1,

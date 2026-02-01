@@ -109,6 +109,9 @@
           "id": "blackhole_mass",
           "name": "블랙홀 덩이",
           "group": "소환물",
+          "sourcePassive": "《블랙홀》",
+          "destroyable": true,
+          "damageable": true,
           "count": 1,
           "size": {
             "width": 1,

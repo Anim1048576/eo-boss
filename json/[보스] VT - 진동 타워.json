@@ -91,14 +91,6 @@
             "conditionRaw": "《축전 노드》중 어느 하나의 생명점이 10 이하",
             "effectHint": "파괴된 노드를 기준 5×5 범위에 2D6 피해(절반 고정)"
           }
-        },
-        {
-          "name": "",
-          "text": ""
-        },
-        {
-          "name": "",
-          "text": ""
         }
       ],
       "patterns": [],
@@ -109,6 +101,8 @@
           "name": "축전 노드",
           "group": "오브젝트",
           "sourcePassive": "《축전 노드》",
+          "destroyable": true,
+          "damageable": true,
           "notes": [
             "라운드 종료시 인접한 칸의 캐릭터에게 1 고정 피해 + [화상] 1 부여."
           ],
@@ -130,6 +124,8 @@
           "name": "에너지 응집체",
           "group": "소환수",
           "sourcePassive": "《에너지 응집체》",
+          "destroyable": false,
+          "damageable": false,
           "notes": [
             "매 라운드 종료시 가장 인접한 적을 향해 이동하며, 해당 범위 내에 캐릭터가 진입할 경우 대상에게 2D6 고정 피해를 입힌다.",
             "《축전 노드》에 피해를 줄 때, 이 효과의 고정 피해량이 2배가 된다."

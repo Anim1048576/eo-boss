@@ -135,6 +135,9 @@
           "id": "unstable_device",
           "name": "불안정한 기계장치",
           "group": "오브젝트",
+          "sourcePassive": "《불안정한 기계장치》",
+          "destroyable": false,
+          "damageable": false,
           "count": 4,
           "size": {
             "width": 3,
