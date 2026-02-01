@@ -1,0 +1,56 @@
+{
+  "sourceFile": "[보스] 잔해의 수호 기사 - 리멘.txt",
+  "titleLine": "잔해의 수호 기사 - 리멘",
+  "bossTitle": "[보스] 잔해의 수호 기사 - 리멘",
+  "bossNameHintFromTitle": "리멘",
+  "quest": {
+    "issuer": "에오르디아의 탐사원",
+    "title": "침수지 탐사 인원 모집",
+    "reward": {
+      "raw": "10XP / 50G",
+      "xp": 10,
+      "gold": 50
+    },
+    "recommendedParty": "6인",
+    "recommendedRoles": "원거리, 관찰 특화, 5레벨 이상",
+    "difficulty": "상",
+    "sessionDate": "2026-01-19"
+  },
+  "bosses": [
+    {
+      "phase": 1,
+      "statsParsed": {
+        "raw": {
+          "이름": "리멘",
+          "생명점": "1200",
+          "이동력": "5",
+          "맵 크기": "15×20",
+          "보스 크기": "1×1",
+          "대응 판정": "3D6",
+          "백병 승리 피해": "1D6",
+          "백병 패배 피해": "1D6/2U"
+        },
+        "name": "리멘",
+        "hp": {
+          "raw": "1200",
+          "base": 1200,
+          "start": 150
+        },
+        "move": "5",
+        "mapSize": {
+          "raw": "15×20",
+          "width": 15,
+          "height": 20
+        },
+        "bossSize": {
+          "raw": "1×1",
+          "width": 1,
+          "height": 1
+        },
+        "counterCheck": "3D6",
+        "meleeWinDamage": "1D6",
+        "meleeLoseDamage": "1D6/2U"
+      }
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "sourceFile": "[보스] 명계의 여제 - 아누비스.txt",
+  "titleLine": "명계의 여제 - 아누비스",
+  "bossTitle": "명계의 여제",
+  "bossNameHintFromTitle": "아누비스",
+  "quest": {
+    "issuer": "에오르디아의 탐사원",
+    "title": "침수지 탐사 인원 모집",
+    "reward": {
+      "gold": 40,
+      "xp": 10,
+      "raw": "40G / 10XP"
+    },
+    "recommendedParty": "5인",
+    "recommendedRoles": "앤티크, 관찰이 특기인 자, 이동력이 빠른 자",
+    "difficulty": "권장 인원 기준 상",
+    "sessionDate": "2025-12-28"
+  },
+  "bosses": [
+    {
+      "phase": 1,
+      "transition": {
+        "toPhase": 2,
+        "when": "adds_all_defeated"
+      },
+      "statsParsed": {
+        "raw": {
+          "이름": "카노푸스",
+          "생명점": "0",
+          "이동력": "0",
+          "맵 크기": "15×15",
+          "보스 크기": "0×0",
+          "대응 판정": "없음"
+        },
+        "name": "카노푸스",
+        "mapSize": {
+          "width": 15,
+          "height": 15,
+          "raw": "15×15"
+        },
+        "role": "stage_controller"
+      },
+      "adds": [
+        {
+          "id": "imsety",
+          "name": "임세티",
+          "group": "명계의 인도자",
+          "sourcePassive": "《명계의 인도자 - 임세티》",
+          "notes": [
+            "임세티는 2번의 턴을 갖는다."
+          ],
+          "statsParsed": {
+            "name": "임세티",
+            "hp": {
+              "raw": "30",
+              "base": 30,
+              "start": 30
+            },
+            "move": 3,
+            "counterCheck": "특화 판정",
+            "meleeWinDamage": "1D8",
+            "meleeLoseDamage": "없음"
+          }
+        },
+        {
+          "id": "hapi",
+          "name": "하피",
+          "group": "명계의 인도자",
+          "sourcePassive": "《명계의 인도자 - 하피》",
+          "notes": [
+            "하피는 반격 대미지를 줄 수 있다."
+          ],
+          "statsParsed": {
+            "name": "하피",
+            "hp": {
+              "raw": "24",
+              "base": 24,
+              "start": 24
+            },
+            "move": 3,
+            "counterCheck": "일반 판정",
+            "meleeWinDamage": "1D6",
+            "meleeLoseDamage": "1D6/2U"
+          }
+        },
+        {
+          "id": "duamutef",
+          "name": "두아무테프",
+          "group": "명계의 인도자",
+          "sourcePassive": "《명계의 인도자 - 두아무테프》",
+          "notes": [
+            "두아무테프는 남은 명계의 인도자의 수에 비례해서 강해진다.",
+            "생명점: 48 (명계의 인도자 처치마다 12씩 감소)",
+            "대응 판정: {명계의 인도자의 수}D6 (모든 주사위 합산)",
+            "발사 승리 피해: 1D5를 {명계의 인도자의 수}회 굴려 가장 높은 주사위 1개를 선택",
+            "특수: 조준 1턴, 발사 1턴을 번갈아가며 소모"
+          ],
+          "statsParsed": {
+            "name": "두아무테프",
+            "hp": {
+              "raw": "48 *명계의 인도자가 처치될 때마다 12씩 감소",
+              "base": 48,
+              "start": 48,
+              "rule": "decrease_12_per_add_defeated"
+            },
+            "move": 3,
+            "counterCheck": "{명계의 인도자의 수}D6 (모든 주사위 합산)",
+            "meleeWinDamage": "없음",
+            "meleeLoseDamage": "없음",
+            "rangedWinDamage": "1D5 x {명계의 인도자의 수} (choose highest 1)",
+            "special": "조준 1턴 / 발사 1턴 교대"
+          }
+        },
+        {
+          "id": "qebehsenuef",
+          "name": "케벤세누프",
+          "group": "명계의 인도자",
+          "sourcePassive": "《명계의 인도자 - 케벤세누프》",
+          "notes": [
+            "케벤세누프는 다른 카노푸스가 받는 피해를 대신 받는다.",
+            "특수: 커버링 라운드당 1회"
+          ],
+          "statsParsed": {
+            "name": "케벤세누프",
+            "hp": {
+              "raw": "25",
+              "base": 25,
+              "start": 25
+            },
+            "move": 3,
+            "counterCheck": "특화 판정",
+            "meleeWinDamage": "없음",
+            "meleeLoseDamage": "없음",
+            "defenseWinMitigation": "1D3",
+            "special": "covering_1_per_round"
+          }
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "statsParsed": {
+        "raw": {
+          "이름": "아누비스",
+          "생명점": "130",
+          "이동력": "0",
+          "맵 크기": "15×15",
+          "보스 크기": "1×1",
+          "대응 판정": "4B6",
+          "백병 승리 피해": "1D6/2U",
+          "백병 패배 피해": "1D6/2U"
+        },
+        "name": "아누비스",
+        "hp": {
+          "raw": "130",
+          "base": 130,
+          "start": 130
+        },
+        "move": 0,
+        "mapSize": {
+          "width": 15,
+          "height": 15,
+          "raw": "15×15"
+        },
+        "bossSize": {
+          "width": 1,
+          "height": 1,
+          "raw": "1×1"
+        },
+        "counterCheck": "4B6",
+        "meleeWinDamage": "1D6/2U",
+        "meleeLoseDamage": "1D6/2U"
+      }
+    }
+  ]
+}

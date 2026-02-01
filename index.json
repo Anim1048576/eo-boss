@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-01T07:28:11.000000+00:00",
+  "bossCount": 10,
+  "bosses": [
+    {
+      "id": "델타-라프",
+      "titleLine": "Δ - 라프",
+      "bossTitle": "[보스] Δ - 라프",
+      "bossName": "라프",
+      "sessionDate": "2026-01-29",
+      "difficulty": "상",
+      "recommendedParty": "?",
+      "summaryPath": "summary_json/[보스] Δ - 라프.json",
+      "fullPath": "json/[보스] Δ - 라프.json",
+      "txtPath": "txt/[보스] Δ - 라프.txt"
+    },
+    {
+      "id": "잔해의-수호-기사-리멘",
+      "titleLine": "잔해의 수호 기사 - 리멘",
+      "bossTitle": "[보스] 잔해의 수호 기사 - 리멘",
+      "bossName": "리멘",
+      "sessionDate": "2026-01-19",
+      "difficulty": "상",
+      "recommendedParty": "6인",
+      "summaryPath": "summary_json/[보스] 잔해의 수호 기사 - 리멘.json",
+      "fullPath": "json/[보스] 잔해의 수호 기사 - 리멘.json",
+      "txtPath": "txt/[보스] 잔해의 수호 기사 - 리멘.txt"
+    },
+    {
+      "id": "vt-진동-타워",
+      "titleLine": "V.T. - 진동 타워",
+      "bossTitle": "V.T.",
+      "bossName": "진동 타워",
+      "sessionDate": "2026-01-13",
+      "difficulty": "중",
+      "recommendedParty": "8인",
+      "summaryPath": "summary_json/[보스] VT - 진동 타워.json",
+      "fullPath": "json/[보스] VT - 진동 타워.json",
+      "txtPath": "txt/[보스] VT - 진동 타워.txt"
+    },
+    {
+      "id": "밤의-악마-a411-nd",
+      "titleLine": "밤의 악마 - A411-ND",
+      "bossTitle": "밤의 악마",
+      "bossName": "A411-ND",
+      "sessionDate": "2026-01-11",
+      "difficulty": "상(추정)",
+      "recommendedParty": "?",
+      "summaryPath": "summary_json/[보스] 밤의 악마 - A411-ND.json",
+      "fullPath": "json/[보스] 밤의 악마 - A411-ND.json",
+      "txtPath": "txt/[보스] 밤의 악마 - A411-ND.txt"
+    },
+    {
+      "id": "태초의-원석-아우룸",
+      "titleLine": "태초의 원석 - 아우룸",
+      "bossTitle": "태초의 원석",
+      "bossName": "아우룸",
+      "sessionDate": "2026-01-09",
+      "difficulty": "상",
+      "recommendedParty": "?",
+      "summaryPath": "summary_json/[보스] 태초의 원석 - 아우룸.json",
+      "fullPath": "json/[보스] 태초의 원석 - 아우룸.json",
+      "txtPath": "txt/[보스] 태초의 원석 - 아우룸.txt"
+    },
+    {
+      "id": "평등의-시선-워다니즈",
+      "titleLine": "평등의 시선 - 워다니즈",
+      "bossTitle": "평등의 시선",
+      "bossName": "워다니즈",
+      "sessionDate": "2025-12-30",
+      "difficulty": "권장 인원 기준 상",
+      "recommendedParty": "6인",
+      "summaryPath": "summary_json/[보스] 평등의 시선 - 워다니즈.json",
+      "fullPath": "json/[보스] 평등의 시선 - 워다니즈.json",
+      "txtPath": "txt/[보스] 평등의 시선 - 워다니즈.txt"
+    },
+    {
+      "id": "명계의-여제-아누비스",
+      "titleLine": "명계의 여제 - 아누비스",
+      "bossTitle": "명계의 여제",
+      "bossName": "아누비스",
+      "sessionDate": "2025-12-28",
+      "difficulty": "권장 인원 기준 상",
+      "recommendedParty": "5인",
+      "summaryPath": "summary_json/[보스] 명계의 여제 - 아누비스.json",
+      "fullPath": "json/[보스] 명계의 여제 - 아누비스.json",
+      "txtPath": "txt/[보스] 명계의 여제 - 아누비스.txt"
+    },
+    {
+      "id": "극독의-과학자-톡서",
+      "titleLine": "극독의 과학자 - 톡서",
+      "bossTitle": "극독의 과학자",
+      "bossName": "톡서",
+      "sessionDate": "2025-12-25",
+      "difficulty": "권장 인원 기준 상",
+      "recommendedParty": "5인",
+      "summaryPath": "summary_json/[보스] 극독의 과학자 - 톡서.json",
+      "fullPath": "json/[보스] 극독의 과학자 - 톡서.json",
+      "txtPath": "txt/[보스] 극독의 과학자 - 톡서.txt"
+    },
+    {
+      "id": "천체의-주관자-코스모",
+      "titleLine": "천체의 주관자 - 코스모",
+      "bossTitle": "천체의 주관자",
+      "bossName": "코스모",
+      "sessionDate": "2025-12-23",
+      "difficulty": "불명",
+      "recommendedParty": "4~10인",
+      "summaryPath": "summary_json/[보스] 천체의 주관자 - 코스모.json",
+      "fullPath": "json/[보스] 천체의 주관자 - 코스모.json",
+      "txtPath": "txt/[보스] 천체의 주관자 - 코스모.txt"
+    },
+    {
+      "id": "마탄의-사수-카스파",
+      "titleLine": "마탄의 사수 - 카스파",
+      "bossTitle": "마탄의 사수",
+      "bossName": "카스파",
+      "sessionDate": "2025-12-21",
+      "difficulty": "권장 인원 기준 초~중",
+      "recommendedParty": "5인",
+      "summaryPath": "summary_json/[보스] 마탄의 사수 - 카스파.json",
+      "fullPath": "json/[보스] 마탄의 사수 - 카스파.json",
+      "txtPath": "txt/[보스] 마탄의 사수 - 카스파.txt"
+    }
+  ]
+}

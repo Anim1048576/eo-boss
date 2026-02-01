@@ -1,0 +1,56 @@
+{
+  "sourceFile": "[보스] 밤의 악마 - A411-ND.txt",
+  "titleLine": "밤의 악마 - A411-ND",
+  "bossTitle": "밤의 악마",
+  "bossNameHintFromTitle": "A411-ND",
+  "quest": {
+    "issuer": "에오르디아의 탐사원",
+    "title": "침수지 탐사 인원 모집",
+    "reward": {
+      "gold": 60,
+      "xp": 10,
+      "raw": "60G / 10XP"
+    },
+    "recommendedParty": "?",
+    "recommendedRoles": "?",
+    "difficulty": "상(추정)",
+    "sessionDate": "2026-01-11"
+  },
+  "bosses": [
+    {
+      "phase": 1,
+      "statsParsed": {
+        "raw": {
+          "이름": "A411-ND",
+          "생명점": "300",
+          "이동력": "5",
+          "맵 크기": "21×21",
+          "보스 크기": "3×3",
+          "대응 판정": "4B6",
+          "백병 승리 피해": "1D9",
+          "백병 패배 피해": "1D6"
+        },
+        "name": "A411-ND",
+        "hp": {
+          "raw": "300",
+          "base": 300,
+          "start": 300
+        },
+        "move": 5,
+        "mapSize": {
+          "width": 21,
+          "height": 21,
+          "raw": "21×21"
+        },
+        "bossSize": {
+          "width": 3,
+          "height": 3,
+          "raw": "3×3"
+        },
+        "counterCheck": "4B6",
+        "meleeWinDamage": "1D9",
+        "meleeLoseDamage": "1D6"
+      }
+    }
+  ]
+}
