@@ -63,6 +63,7 @@
         "meleeWinDamage": "1D6",
         "meleeLoseDamage": "1D6/2U"
       },
+      "supportItems": [],
       "passives": [
         {
           "name": "《타고난 싸움꾼》",

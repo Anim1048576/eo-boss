@@ -63,6 +63,7 @@
         "meleeWinDamage": "《FS》 격발",
         "meleeLoseDamage": "1D6/2U"
       },
+      "supportItems": [],
       "passives": [
         {
           "name": "《모듈 : 크로스 파이어》",

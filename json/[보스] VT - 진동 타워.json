@@ -66,6 +66,7 @@
         "meleeWinDamage": "없음",
         "meleeLoseDamage": "없음"
       },
+      "supportItems": [],
       "passives": [
         {
           "name": "《진동 발산》",

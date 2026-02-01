@@ -63,6 +63,7 @@
         "meleeWinDamage": "1D9",
         "meleeLoseDamage": "1D6"
       },
+      "supportItems": [],
       "passives": [
         {
           "name": "《불안정한 기계장치》",

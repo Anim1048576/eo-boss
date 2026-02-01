@@ -63,6 +63,7 @@
         "meleeWinDamage": "1D6",
         "meleeLoseDamage": "없음"
       },
+      "supportItems": [],
       "passives": [
         {
           "name": "《중력의 방해》",
