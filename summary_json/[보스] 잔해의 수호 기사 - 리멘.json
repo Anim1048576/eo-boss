@@ -36,7 +36,7 @@
           "base": 1200,
           "start": 150
         },
-        "move": "5",
+        "move": 5,
         "mapSize": {
           "raw": "15×20",
           "width": 15,

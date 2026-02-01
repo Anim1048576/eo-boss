@@ -1,4 +1,7 @@
 {
+  "schemaVersion": "1.0.0",
+  "generatorVersion": "manual_restore_from_zip_txt",
+  "generatedAt": "2026-02-01T08:26:30Z",
   "sourceFile": "[보스] VT - 진동 타워.txt",
   "titleLine": "V.T. - 진동 타워",
   "bossTitle": "V.T.",
@@ -11,10 +14,12 @@
       "xp": 10,
       "gold": 50
     },
+    "supportSupplies": "없음",
     "recommendedParty": "8인",
     "recommendedRoles": "이동력이 빠른 인원, 원거리 딜러",
     "difficulty": "중",
-    "sessionDate": "2026-01-13"
+    "sessionDate": "2026-01-13",
+    "description": "어째 요즘 임무가 많네.\n자, 이번 침수지는 초원에 발생했어.\n좀 넓은 돌바닥에.. 기계 기둥같은게 몇개 솟아나있는 상태야.\n뭐 자세한 내용은... 알지?"
   },
   "bosses": [
     {
