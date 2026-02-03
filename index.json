@@ -1,8 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-02-01T07:28:11.000000+00:00",
-  "bossCount": 10,
+  "generatedAt": "2026-02-03T13:19:15.000000+00:00",
+  "bossCount": 11,
   "bosses": [
+    {
+      "id": "창명한-고향-시텔리",
+      "titleLine": "창명한 고향 - 시텔리",
+      "bossTitle": "[보스] 창명한 고향 - 시텔리",
+      "bossName": "시텔리",
+      "sessionDate": "2026-02-01",
+      "difficulty": "중상",
+      "recommendedParty": "불명",
+      "summaryPath": "summary_json/[보스] 창명한 고향 - 시텔리.json",
+      "fullPath": "json/[보스] 창명한 고향 - 시텔리.json",
+      "txtPath": "txt/[보스] 창명한 고향 - 시텔리.txt"
+    },
     {
       "id": "델타-라프",
       "titleLine": "Δ - 라프",

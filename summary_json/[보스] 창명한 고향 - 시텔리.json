@@ -1,0 +1,74 @@
+{
+  "sourceFile": "[보스] 창명한 고향 - 시텔리.txt",
+  "titleLine": "창명한 고향 - 시텔리",
+  "bossTitle": "창명한 고향",
+  "bossNameHintFromTitle": "시텔리",
+  "quest": {
+    "issuer": "에오르디아의 탐사원",
+    "title": "침수지 탐사 인원 모집",
+    "reward": {
+      "raw": "15XP / 70G",
+      "xp": 15,
+      "gold": 70
+    },
+    "supportSupplies": "없음",
+    "recommendedParty": "불명",
+    "recommendedRoles": "튼튼하고 딜 강한 사람, 5레벨 이상",
+    "difficulty": "중상",
+    "sessionDate": "2026-02-01",
+    "description": "뭐.. 잠만, 지금 좀 귀찮아서.\n파도 하나 생겼어. 포탈이라 정보는 적고.\n음, 있다 보자"
+  },
+  "bosses": [
+    {
+      "phase": 1,
+      "statsParsed": {
+        "raw": {
+          "이름": "시텔리",
+          "생명점": "500",
+          "이동력": "0",
+          "맵 크기": "20×20",
+          "보스 크기": "3×3",
+          "판정": {
+            "능력치": {
+              "기술": "특화",
+              "감각": "특화",
+              "교양": "특화",
+              "신체": "특화"
+            },
+            "재정의": {}
+          },
+          "백병 승리 피해": "1D6",
+          "백병 패배 피해": "1D6/2U"
+        },
+        "name": "시텔리",
+        "hp": {
+          "raw": "500",
+          "base": 500,
+          "start": 500
+        },
+        "move": 0,
+        "mapSize": {
+          "raw": "20×20",
+          "width": 20,
+          "height": 20
+        },
+        "bossSize": {
+          "raw": "3×3",
+          "width": 3,
+          "height": 3
+        },
+        "checks": {
+          "ability": {
+            "기술": "특화",
+            "감각": "특화",
+            "교양": "특화",
+            "신체": "특화"
+          },
+          "override": {}
+        },
+        "meleeWinDamage": "1D6",
+        "meleeLoseDamage": "1D6/2U"
+      }
+    }
+  ]
+}
