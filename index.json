@@ -1,8 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-02-03T13:19:15.000000+00:00",
-  "bossCount": 11,
+  "generatedAt": "2026-02-06T13:40:46.209896+00:00",
+  "bossCount": 12,
   "bosses": [
+    {
+      "id": "후회와-산탄-데드샷",
+      "titleLine": "후회와 산탄 - 데드샷",
+      "bossTitle": "후회와 산탄",
+      "bossName": "데드샷",
+      "sessionDate": "2026-02-05",
+      "difficulty": "중(격차 큼)",
+      "recommendedParty": "?",
+      "summaryPath": "summary_json/[보스] 후회와 산탄 - 데드샷.json",
+      "fullPath": "json/[보스] 후회와 산탄 - 데드샷.json",
+      "txtPath": "txt/[보스] 후회와 산탄 - 데드샷.txt"
+    },
     {
       "id": "창명한-고향-시텔리",
       "titleLine": "창명한 고향 - 시텔리",
