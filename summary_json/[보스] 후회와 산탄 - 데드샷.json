@@ -1,0 +1,80 @@
+{
+  "sourceFile": "[보스] 후회와 산탄 - 데드샷.txt",
+  "titleLine": "후회와 산탄 - 데드샷",
+  "bossTitle": "후회와 산탄",
+  "bossNameHintFromTitle": "데드샷",
+  "quest": {
+    "issuer": "에오르디아의 탐사원",
+    "title": "침수지 탐사 인원 모집",
+    "reward": {
+      "gold": 50,
+      "xp": 15,
+      "note": "5레벨 이하는 2배",
+      "raw": "50G / 15XP (5레벨 이하는 2배)"
+    },
+    "supportSupplies": "없음",
+    "recommendedParty": "?",
+    "recommendedRoles": "?",
+    "difficulty": "중(격차 큼)",
+    "sessionDate": "2026-02-05",
+    "description": "오늘은 좀 간략하게 말할게. 사실 정보가 별로 없기도 하고.\n숲에 파도 하나가 발생했어.\n자세히 설명할게 많지는 않지만 일단 모이면 이야기할게"
+  },
+  "bosses": [
+    {
+      "phase": 1,
+      "statsParsed": {
+        "raw": {
+          "이름": "데드샷",
+          "생명점": "70",
+          "이동력": "1",
+          "맵 크기": "11×11",
+          "보스 크기": "1×1",
+          "판정": {
+            "능력치": {
+              "기술": "취약",
+              "감각": "취약",
+              "교양": "취약",
+              "신체": "취약"
+            },
+            "재정의": {
+              "백병 판정": "자신의 「백병 판정」의 「판정 주사위」는 「4개」가 된다."
+            }
+          },
+          "백병 승리 피해": "2D4+1",
+          "백병 패배 피해": "(2D5-1)/3U"
+        },
+        "name": "데드샷",
+        "hp": {
+          "raw": "70",
+          "base": 70,
+          "start": 70
+        },
+        "move": 1,
+        "mapSize": {
+          "width": 11,
+          "height": 11,
+          "raw": "11×11"
+        },
+        "bossSize": {
+          "width": 1,
+          "height": 1,
+          "raw": "1×1"
+        },
+        "checks": {
+          "ability": {
+            "기술": "취약",
+            "감각": "취약",
+            "교양": "취약",
+            "신체": "취약"
+          },
+          "override": {
+            "meleeCheckDice": 4,
+            "raw": "자신의 「백병 판정」의 「판정 주사위」는 「4개」가 된다."
+          }
+        },
+        "meleeWinDamage": "2D4+1",
+        "meleeLoseDamage": "(2D5-1)/3U"
+      }
+    }
+  ]
+}
