@@ -1,8 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-02-06T13:40:46.209896+00:00",
-  "bossCount": 12,
+  "generatedAt": "2026-02-18T21:44:50.754088+00:00",
+  "bossCount": 13,
   "bosses": [
+    {
+      "id": "최후의-전장-메탈",
+      "titleLine": "최후의 전장 - 메탈",
+      "bossTitle": "최후의 전장",
+      "bossName": "메탈",
+      "sessionDate": "2026-02-11",
+      "difficulty": "상",
+      "recommendedParty": "이동특화, 전투 보정 특화",
+      "summaryPath": "summary_json/[보스] 최후의 전장 - 메탈.json",
+      "fullPath": "json/[보스] 최후의 전장 - 메탈.json",
+      "txtPath": "txt/[보스] 최후의 전장 - 메탈.txt"
+    },
     {
       "id": "후회와-산탄-데드샷",
       "titleLine": "후회와 산탄 - 데드샷",

@@ -93,7 +93,12 @@
         "meleeWinDamage": "《FS》 격발",
         "meleeLoseDamage": "1D6/2U"
       },
-      "supportItems": [],
+      "supportItems": [
+        {
+          "name": "재생 앰플",
+          "quantity": "참여 인원당 1개"
+        }
+      ],
       "passives": [
         {
           "name": "《모듈 : 크로스 파이어》",

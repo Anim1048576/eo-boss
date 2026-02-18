@@ -90,6 +90,7 @@
       "supportItems": [
         {
           "name": "해독제",
+          "quantity": "참여 인원당 1개",
           "rawBlock": "해독제\n【소모품】【비액션】\n자신에게 적용된 모든 [극독]을 제거한다.",
           "tagsRaw": "【소모품】【비액션】",
           "tags": [
