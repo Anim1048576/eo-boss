@@ -1,8 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-02-18T21:44:50.754088+00:00",
-  "bossCount": 13,
+  "generatedAt": "2026-03-23T16:41:27.576580+00:00",
+  "bossCount": 14,
   "bosses": [
+    {
+      "id": "감염된-숲의-짐승",
+      "titleLine": "감염된 숲의 짐승 - 감염된 숲의 짐승의 우두머리",
+      "bossTitle": "감염된 숲의 짐승",
+      "bossName": "감염된 숲의 짐승의 우두머리",
+      "sessionDate": "2026-03-05",
+      "difficulty": "중상",
+      "recommendedParty": "원거리 딜러, 힐러",
+      "summaryPath": "summary_json/[보스] 감염된 숲의 짐승 - 감염된 숲의 짐승의 우두머리.json",
+      "fullPath": "json/[보스] 감염된 숲의 짐승 - 감염된 숲의 짐승의 우두머리.json",
+      "txtPath": "txt/[보스] 감염된 숲의 짐승 - 감염된 숲의 짐승의 우두머리.txt"
+    },
     {
       "id": "최후의-전장-메탈",
       "titleLine": "최후의 전장 - 메탈",
