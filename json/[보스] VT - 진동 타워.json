@@ -127,6 +127,7 @@
           "sourcePassive": "《축전 노드》",
           "destroyable": true,
           "damageable": true,
+          "count": 4,
           "notes": [
             "라운드 종료시 인접한 칸의 캐릭터에게 1 고정 피해 + [화상] 1 부여."
           ],

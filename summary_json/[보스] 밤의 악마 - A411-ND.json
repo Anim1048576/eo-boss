@@ -68,7 +68,35 @@
         },
         "meleeWinDamage": "1D9",
         "meleeLoseDamage": "1D6"
-      }
+      },
+      "adds": [
+        {
+          "id": "unstable_device",
+          "name": "불안정한 기계장치",
+          "group": "오브젝트",
+          "sourcePassive": "《불안정한 기계장치》",
+          "destroyable": false,
+          "damageable": false,
+          "count": 4,
+          "size": {
+            "width": 3,
+            "height": 3,
+            "raw": "3×3"
+          },
+          "statsParsed": {
+            "name": "불안정한 기계장치",
+            "hp": {
+              "raw": "없음",
+              "base": 0,
+              "start": 0
+            },
+            "move": 0,
+            "counterCheck": "감각/교양: 8 (수리)",
+            "meleeWinDamage": "없음",
+            "meleeLoseDamage": "없음"
+          }
+        }
+      ]
     }
   ]
 }

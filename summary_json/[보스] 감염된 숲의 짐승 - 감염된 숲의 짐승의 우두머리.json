@@ -1,0 +1,113 @@
+{
+  "sourceFile": "[보스] 감염된 숲의 짐승 - 감염된 숲의 짐승의 우두머리.txt",
+  "titleLine": "감염된 숲의 짐승 - 감염된 숲의 짐승의 우두머리",
+  "bossTitle": "감염된 숲의 짐승",
+  "bossNameHintFromTitle": "감염된 숲의 짐승의 우두머리",
+  "quest": {
+    "issuer": "에오르디아의 탐사원",
+    "title": "침수지 탐사 인원 모집",
+    "reward": {
+      "raw": "15XP / 60G",
+      "xp": 15,
+      "gold": 60
+    },
+    "recommendedParty": "?",
+    "recommendedRoles": "원거리 딜러, 힐러",
+    "difficulty": "중상",
+    "sessionDate": "2026-03-05"
+  },
+  "bosses": [
+    {
+      "phase": 1,
+      "statsParsed": {
+        "raw": {
+          "이름": "감염된 숲의 짐승의 우두머리",
+          "생명점": "150",
+          "이동력": "6",
+          "맵 크기": "11×11",
+          "보스 크기": "1×1",
+          "판정": {
+            "능력치": {
+              "기술": "일반",
+              "감각": "취약",
+              "교양": "일반",
+              "신체": "특화"
+            },
+            "재정의": true
+          },
+          "백병 승리 피해": "2D4",
+          "백병 패배 피해": "1D6/2U"
+        },
+        "name": "감염된 숲의 짐승의 우두머리",
+        "hp": {
+          "raw": "150",
+          "base": 150,
+          "start": 90
+        },
+        "move": 6,
+        "mapSize": {
+          "raw": "11×11",
+          "width": 11,
+          "height": 11
+        },
+        "bossSize": {
+          "raw": "1×1",
+          "width": 1,
+          "height": 1
+        },
+        "checks": {
+          "ability": {
+            "기술": "일반",
+            "감각": "취약",
+            "교양": "일반",
+            "신체": "특화"
+          },
+          "override": true
+        },
+        "meleeWinDamage": "2D4",
+        "meleeLoseDamage": "1D6/2U"
+      },
+      "adds": [
+        {
+          "id": "infected_forest_beast",
+          "name": "감염된 숲의 짐승",
+          "group": "추종자",
+          "sourcePassive": "《우두머리》",
+          "destroyable": true,
+          "damageable": true,
+          "count": 9,
+          "size": {
+            "raw": "1×1",
+            "width": 1,
+            "height": 1
+          },
+          "statsParsed": {
+            "name": "감염된 숲의 짐승",
+            "hp": {
+              "raw": "30",
+              "base": 30,
+              "start": 30
+            },
+            "move": 6,
+            "bossSize": {
+              "raw": "1×1",
+              "width": 1,
+              "height": 1
+            },
+            "checks": {
+              "ability": {
+                "기술": "일반",
+                "감각": "취약",
+                "교양": "일반",
+                "신체": "특화"
+              },
+              "override": true
+            },
+            "meleeWinDamage": "2D4",
+            "meleeLoseDamage": "1D6/2U"
+          }
+        }
+      ]
+    }
+  ]
+}

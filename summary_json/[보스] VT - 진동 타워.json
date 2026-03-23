@@ -66,7 +66,38 @@
         },
         "meleeWinDamage": "없음",
         "meleeLoseDamage": "없음"
-      }
+      },
+      "adds": [
+        {
+          "id": "capacitor_node",
+          "name": "축전 노드",
+          "group": "오브젝트",
+          "sourcePassive": "《축전 노드》",
+          "destroyable": true,
+          "damageable": true,
+          "count": 4,
+          "statsParsed": {
+            "name": "축전 노드",
+            "hp": {
+              "raw": "50",
+              "base": 50,
+              "start": 50
+            },
+            "move": 0,
+            "checks": {
+              "ability": {
+                "기술": "특화",
+                "감각": "특화",
+                "교양": "특화",
+                "신체": "특화"
+              },
+              "override": false
+            },
+            "meleeWinDamage": "없음",
+            "meleeLoseDamage": "없음"
+          }
+        }
+      ]
     }
   ]
 }
