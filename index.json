@@ -1,8 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-23T16:41:27.576580+00:00",
-  "bossCount": 14,
+  "generatedAt": "2026-04-15T06:08:54.678696+00:00",
+  "bossCount": 15,
   "bosses": [
+    {
+      "id": "이야기-속-마왕-에리데",
+      "titleLine": "이야기 속 마왕 - 에리데",
+      "bossTitle": "이야기 속 마왕",
+      "bossName": "에리데",
+      "sessionDate": "2026-04-09",
+      "difficulty": "상",
+      "recommendedParty": "?",
+      "summaryPath": "summary_json/[보스] 이야기 속 마왕 - 에리데.json",
+      "fullPath": "json/[보스] 이야기 속 마왕 - 에리데.json",
+      "txtPath": "txt/[보스] 이야기 속 마왕 - 에리데.txt"
+    },
     {
       "id": "감염된-숲의-짐승",
       "titleLine": "감염된 숲의 짐승 - 감염된 숲의 짐승의 우두머리",
