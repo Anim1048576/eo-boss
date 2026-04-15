@@ -1,0 +1,72 @@
+{
+  "sourceFile": "[보스] 이야기 속 마왕 - 에리데.txt",
+  "titleLine": "이야기 속 마왕 - 에리데",
+  "bossTitle": "이야기 속 마왕",
+  "bossNameHintFromTitle": "에리데",
+  "quest": {
+    "issuer": "에오르디아의 탐사원",
+    "title": "침수지 탐사 인원 모집",
+    "reward": {
+      "raw": "15XP / 50G",
+      "xp": 15,
+      "gold": 50
+    },
+    "recommendedParty": "?",
+    "recommendedRoles": "백병가, 튼튼한 사람",
+    "difficulty": "상",
+    "sessionDate": "2026-04-09"
+  },
+  "bosses": [
+    {
+      "phase": 1,
+      "statsParsed": {
+        "raw": {
+          "이름": "에리데",
+          "생명점": "666",
+          "이동력": "6",
+          "맵 크기": "16×15",
+          "보스 크기": "1×1",
+          "판정": {
+            "능력치": {
+              "기술": "특화",
+              "감각": "특화",
+              "교양": "취약",
+              "신체": "특화"
+            },
+            "재정의": {}
+          },
+          "백병 승리 피해": "2D6",
+          "백병 패배 피해": "1D6/2U"
+        },
+        "name": "에리데",
+        "hp": {
+          "raw": "666",
+          "base": 666,
+          "start": 300
+        },
+        "move": 6,
+        "mapSize": {
+          "raw": "16×15",
+          "width": 16,
+          "height": 15
+        },
+        "bossSize": {
+          "raw": "1×1",
+          "width": 1,
+          "height": 1
+        },
+        "checks": {
+          "ability": {
+            "기술": "특화",
+            "감각": "특화",
+            "교양": "취약",
+            "신체": "특화"
+          },
+          "override": {}
+        },
+        "meleeWinDamage": "2D6",
+        "meleeLoseDamage": "1D6/2U"
+      }
+    }
+  ]
+}
