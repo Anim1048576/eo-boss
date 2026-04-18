@@ -1,0 +1,190 @@
+{
+  "sourceFile": "[보스] 불쾌한 포식자 - 비스타.txt",
+  "titleLine": "불쾌한 포식자 - 비스타",
+  "bossTitle": "불쾌한 포식자",
+  "bossNameHintFromTitle": "비스타",
+  "quest": {
+    "issuer": "에오르디아의 탐사원",
+    "title": "침수지 탐사 인원 모집",
+    "reward": {
+      "gold": 60,
+      "xp": 10,
+      "raw": "10XP / 60G"
+    },
+    "supportSupplies": "■■ ■■■■ ×3(개인), ■■ ■■ ×3(파티)",
+    "recommendedParty": "6인",
+    "recommendedRoles": "화기 사용자",
+    "difficulty": "중상",
+    "sessionDate": "2026-04-17",
+    "description": "이번 침수지는 연구소 형태의 침수지입니다.\n이전에도 비슷한 형태의 침수지는 존재했습니다만, 이번에는 다행히도 독은 없군요.\n다만.. 특이사항으로는 이번 침수지는 스스로 움직이고 있습니다.\n네, 제대로 들은 것 맞습니다.\n이대로 방치했을 경우 커다란 피해가 예상되기에, 신속히 처리해주시길 바랍니다.\n\n추신. 연구소 바닥에 왜 이런 게 있는지 모를 것들이 몇 가지 있었습니다. 혹시 모를 전투에 활용할 수도 있을지도 모르겠습니다."
+  },
+  "bosses": [
+    {
+      "phase": 1,
+      "transition": {
+        "toPhase": 2,
+        "when": "hp_0_phase_end_then_next_phase_start"
+      },
+      "statsParsed": {
+        "raw": {
+          "이름": "비스타(알)",
+          "생명점": "75",
+          "이동력": "0",
+          "맵 크기": "11×11",
+          "보스 크기": "3×3",
+          "판정": {
+            "능력치": {
+              "기술": "특화",
+              "감각": "특화",
+              "교양": "특화",
+              "신체": "특화"
+            },
+            "재정의": "《진화의 씨앗》"
+          },
+          "백병 승리 피해": "없음",
+          "백병 패배 피해": "1D4/2U"
+        },
+        "name": "비스타(알)",
+        "hp": {
+          "raw": "75",
+          "base": 75,
+          "start": 75
+        },
+        "move": 0,
+        "mapSize": {
+          "width": 11,
+          "height": 11,
+          "raw": "11×11"
+        },
+        "bossSize": {
+          "width": 3,
+          "height": 3,
+          "raw": "3×3"
+        },
+        "checks": {
+          "ability": {
+            "기술": "특화",
+            "감각": "특화",
+            "교양": "특화",
+            "신체": "특화"
+          },
+          "override": {
+            "passives": "《진화의 씨앗》"
+          }
+        },
+        "meleeWinDamage": "없음",
+        "meleeLoseDamage": "1D4/2U"
+      }
+    },
+    {
+      "phase": 2,
+      "statsParsed": {
+        "raw": {
+          "이름": "완전생물 비스타",
+          "생명점": "128",
+          "이동력": "9",
+          "맵 크기": "11×11",
+          "보스 크기": "1×1",
+          "판정": {
+            "능력치": {
+              "기술": "특화",
+              "감각": "특화",
+              "교양": "특화",
+              "신체": "특화"
+            },
+            "재정의": "《완전생물》"
+          },
+          "백병 승리 피해": "2D6",
+          "백병 패배 피해": "1D6"
+        },
+        "name": "완전생물 비스타",
+        "hp": {
+          "raw": "128",
+          "base": 128,
+          "start": 128
+        },
+        "move": 9,
+        "mapSize": {
+          "width": 11,
+          "height": 11,
+          "raw": "11×11"
+        },
+        "bossSize": {
+          "width": 1,
+          "height": 1,
+          "raw": "1×1"
+        },
+        "checks": {
+          "ability": {
+            "기술": "특화",
+            "감각": "특화",
+            "교양": "특화",
+            "신체": "특화"
+          },
+          "override": {
+            "passives": "《완전생물》"
+          }
+        },
+        "meleeWinDamage": "2D6",
+        "meleeLoseDamage": "1D6"
+      },
+      "adds": [
+        {
+          "id": "vista_cocoon",
+          "name": "비스타의 고치",
+          "group": "오브젝트",
+          "sourcePassive": "《그냥 내버려 두란 말이야!!》",
+          "statsParsed": {
+            "name": "비스타의 고치",
+            "hp": {
+              "raw": "10",
+              "base": 10,
+              "start": 10
+            },
+            "move": 0,
+            "checks": {
+              "ability": {
+                "기술": "특화",
+                "감각": "특화",
+                "교양": "특화",
+                "신체": "특화"
+              },
+              "override": {
+                "note": "대항판정 시 자동으로 패배한다."
+              }
+            },
+            "meleeWinDamage": "없음",
+            "meleeLoseDamage": "없음"
+          },
+          "count": 3
+        },
+        {
+          "id": "experiment_01",
+          "name": "실험체 1번",
+          "group": "추종자",
+          "sourcePassive": "《실험체 1번》",
+          "statsParsed": {
+            "name": "실험체 1번",
+            "hp": {
+              "raw": "40",
+              "base": 40,
+              "start": 40
+            },
+            "move": 3,
+            "checks": {
+              "ability": {
+                "기술": "특화",
+                "감각": "특화",
+                "교양": "특화",
+                "신체": "특화"
+              },
+              "override": {}
+            },
+            "meleeWinDamage": "1D4",
+            "meleeLoseDamage": "1D4/2U"
+          }
+        }
+      ]
+    }
+  ]
+}
