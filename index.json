@@ -1,8 +1,20 @@
 {
   "version": 1,
   "generatedAt": "2026-04-15T06:08:54.678696+00:00",
-  "bossCount": 15,
+  "bossCount": 16,
   "bosses": [
+    {
+      "id": "불쾌한-포식자-비스타",
+      "titleLine": "불쾌한 포식자 - 비스타",
+      "bossTitle": "불쾌한 포식자",
+      "bossName": "비스타",
+      "sessionDate": "2026-04-17",
+      "difficulty": "중상",
+      "recommendedParty": "화기 사용자",
+      "summaryPath": null,
+      "fullPath": null,
+      "txtPath": "txt/[보스] 불쾌한 포식자 - 비스타.txt"
+    },
     {
       "id": "이야기-속-마왕-에리데",
       "titleLine": "이야기 속 마왕 - 에리데",
