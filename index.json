@@ -1,8 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-18T14:38:30.693019+00:00",
-  "bossCount": 16,
+  "generatedAt": "2026-05-16T10:04:34.288967+00:00",
+  "bossCount": 17,
   "bosses": [
+    {
+      "id": "과자의-마녀-카라멜라",
+      "titleLine": "과자의 마녀 - 카라멜라",
+      "bossTitle": "과자의 마녀",
+      "bossName": "카라멜라",
+      "sessionDate": "2026-05-16",
+      "difficulty": "중상",
+      "recommendedParty": "딜러, 이동력이 빠른 사람",
+      "summaryPath": "summary_json/[보스] 과자의 마녀 - 카라멜라.json",
+      "fullPath": "json/[보스] 과자의 마녀 - 카라멜라.json",
+      "txtPath": "txt/[보스] 과자의 마녀 - 카라멜라.txt"
+    },
     {
       "id": "불쾌한-포식자-비스타",
       "titleLine": "불쾌한 포식자 - 비스타",
