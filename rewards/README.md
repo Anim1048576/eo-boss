@@ -15,5 +15,4 @@
 4. `rewards/drop-tables/{dropTableId}.json`
    - 특정 드랍테이블 상세만 필요할 때 사용한다.
 
-기존 `rewards.json`처럼 전체를 한 번에 가져오지 말고,
 항상 index -> 필요한 상세 파일 순서로 가져오는 것을 권장한다.
