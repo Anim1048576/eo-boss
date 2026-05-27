@@ -1,0 +1,27 @@
+{
+    "id": "라프-보상-아이템",
+    "bossId": "델타-라프",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "카본-방탄복",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "fs홀스터",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "509홀스터",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "탄약-박스",
+                    "quantity": 2
+                }
+            ]
+        }
+    }
+}

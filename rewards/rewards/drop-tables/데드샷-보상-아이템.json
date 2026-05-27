@@ -1,0 +1,19 @@
+{
+    "id": "데드샷-보상-아이템",
+    "bossId": "후회와-산탄-데드샷",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "적염의-산탄총",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "추억의-펜던트",
+                    "quantity": 1
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "id": "메탈-보상-아이템",
+    "bossId": "최후의-전장-메탈",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "메탈-도그택",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "방편복",
+                    "quantity": 1
+                }
+            ]
+        }
+    }
+}

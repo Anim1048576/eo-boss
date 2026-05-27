@@ -1,0 +1,19 @@
+{
+    "id": "코스모-보상-아이템",
+    "bossId": "천체의-주관자-코스모",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "척력의-반지",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "학자의-로브",
+                    "quantity": 1
+                }
+            ]
+        }
+    }
+}

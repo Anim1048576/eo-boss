@@ -1,0 +1,19 @@
+{
+    "id": "톡서-보상-아이템",
+    "bossId": "극독의-과학자-톡서",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "톡신-대거",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "화학가스-방독면",
+                    "quantity": 1
+                }
+            ]
+        }
+    }
+}

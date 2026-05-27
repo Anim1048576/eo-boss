@@ -1,0 +1,23 @@
+{
+    "id": "워다니즈-보상-아이템",
+    "bossId": "평등의-시선-워다니즈",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "은빠따",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "흰-날개옷",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "평등의-시선",
+                    "quantity": 1
+                }
+            ]
+        }
+    }
+}

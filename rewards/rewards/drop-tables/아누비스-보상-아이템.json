@@ -1,0 +1,19 @@
+{
+    "id": "아누비스-보상-아이템",
+    "bossId": "명계의-여제-아누비스",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "명계의-펜던트",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "카노푸스-단지",
+                    "quantity": 1
+                }
+            ]
+        }
+    }
+}

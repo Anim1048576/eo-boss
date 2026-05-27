@@ -1,0 +1,19 @@
+{
+    "id": "a411-nd-보상-아이템",
+    "bossId": "밤의-악마-a411-nd",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "빌려온-시간",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "추적자",
+                    "quantity": 1
+                }
+            ]
+        }
+    }
+}

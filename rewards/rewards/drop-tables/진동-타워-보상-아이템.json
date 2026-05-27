@@ -1,0 +1,19 @@
+{
+    "id": "진동-타워-보상-아이템",
+    "bossId": "vt-진동-타워",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "축전-디스플레이",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "진원의-대검",
+                    "quantity": 1
+                }
+            ]
+        }
+    }
+}

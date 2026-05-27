@@ -1,0 +1,19 @@
+{
+    "id": "감염된-숲의-짐승-보상-아이템",
+    "bossId": "감염된-숲의-짐승",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "감염된-우두머리의-오염된-털가죽",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "성물-관",
+                    "quantity": 1
+                }
+            ]
+        }
+    }
+}

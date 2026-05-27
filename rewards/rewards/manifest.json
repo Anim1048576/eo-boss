@@ -1,0 +1,136 @@
+{
+    "schemaVersion": 1,
+    "generatedAt": "2026-05-27T06:00:54.399176+00:00",
+    "counts": {
+        "bosses": 17,
+        "items": 52,
+        "dropTables": 17
+    },
+    "paths": {
+        "index": "rewards/index.json",
+        "boss": "rewards/by-boss/{bossId}.json",
+        "item": "rewards/items/{itemId}.json",
+        "dropTable": "rewards/drop-tables/{dropTableId}.json"
+    },
+    "bosses": [
+        {
+            "id": "과자의-마녀-카라멜라",
+            "titleLine": "과자의 마녀 - 카라멜라",
+            "itemCount": 2,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/과자의-마녀-카라멜라.json"
+        },
+        {
+            "id": "불쾌한-포식자-비스타",
+            "titleLine": "불쾌한 포식자 - 비스타",
+            "itemCount": 5,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/불쾌한-포식자-비스타.json"
+        },
+        {
+            "id": "이야기-속-마왕-에리데",
+            "titleLine": "이야기 속 마왕 - 에리데",
+            "itemCount": 2,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/이야기-속-마왕-에리데.json"
+        },
+        {
+            "id": "감염된-숲의-짐승",
+            "titleLine": "감염된 숲의 짐승 - 감염된 숲의 짐승의 우두머리",
+            "itemCount": 2,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/감염된-숲의-짐승.json"
+        },
+        {
+            "id": "최후의-전장-메탈",
+            "titleLine": "최후의 전장 - 메탈",
+            "itemCount": 2,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/최후의-전장-메탈.json"
+        },
+        {
+            "id": "후회와-산탄-데드샷",
+            "titleLine": "후회와 산탄 - 데드샷",
+            "itemCount": 2,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/후회와-산탄-데드샷.json"
+        },
+        {
+            "id": "창명한-고향-시텔리",
+            "titleLine": "창명한 고향 - 시텔리",
+            "itemCount": 2,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/창명한-고향-시텔리.json"
+        },
+        {
+            "id": "델타-라프",
+            "titleLine": "Δ - 라프",
+            "itemCount": 4,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/델타-라프.json"
+        },
+        {
+            "id": "잔해의-수호-기사-리멘",
+            "titleLine": "잔해의 수호 기사 - 리멘",
+            "itemCount": 14,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/잔해의-수호-기사-리멘.json"
+        },
+        {
+            "id": "vt-진동-타워",
+            "titleLine": "V.T. - 진동 타워",
+            "itemCount": 2,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/vt-진동-타워.json"
+        },
+        {
+            "id": "밤의-악마-a411-nd",
+            "titleLine": "밤의 악마 - A411-ND",
+            "itemCount": 2,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/밤의-악마-a411-nd.json"
+        },
+        {
+            "id": "태초의-원석-아우룸",
+            "titleLine": "태초의 원석 - 아우룸",
+            "itemCount": 2,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/태초의-원석-아우룸.json"
+        },
+        {
+            "id": "평등의-시선-워다니즈",
+            "titleLine": "평등의 시선 - 워다니즈",
+            "itemCount": 3,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/평등의-시선-워다니즈.json"
+        },
+        {
+            "id": "명계의-여제-아누비스",
+            "titleLine": "명계의 여제 - 아누비스",
+            "itemCount": 2,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/명계의-여제-아누비스.json"
+        },
+        {
+            "id": "극독의-과학자-톡서",
+            "titleLine": "극독의 과학자 - 톡서",
+            "itemCount": 2,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/극독의-과학자-톡서.json"
+        },
+        {
+            "id": "천체의-주관자-코스모",
+            "titleLine": "천체의 주관자 - 코스모",
+            "itemCount": 2,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/천체의-주관자-코스모.json"
+        },
+        {
+            "id": "마탄의-사수-카스파",
+            "titleLine": "마탄의 사수 - 카스파",
+            "itemCount": 2,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/마탄의-사수-카스파.json"
+        }
+    ]
+}

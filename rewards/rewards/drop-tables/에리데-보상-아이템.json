@@ -1,0 +1,19 @@
+{
+    "id": "에리데-보상-아이템",
+    "bossId": "이야기-속-마왕-에리데",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "저주-받은-검",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "폭군의-반지",
+                    "quantity": 1
+                }
+            ]
+        }
+    }
+}

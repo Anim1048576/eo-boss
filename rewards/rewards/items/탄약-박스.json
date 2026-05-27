@@ -1,0 +1,21 @@
+{
+    "id": "탄약-박스",
+    "name": "탄약 박스",
+    "origin": {
+        "bossId": "델타-라프",
+        "bossTitle": "델타",
+        "bossName": "라프",
+        "titleLine": "Δ - 라프",
+        "sourcePath": "json/[보스] Δ - 라프.json"
+    },
+    "description": null,
+    "effects": [
+        "「권총탄」을 15개 획득한다."
+    ],
+    "tagsRaw": "【소모품】【획득 즉시 적용】",
+    "tags": [
+        "소모품",
+        "획득 즉시 적용"
+    ],
+    "rawBlock": "설명 : -\n\n【소모품】【획득 즉시 적용】\n「권총탄」을 15개 획득한다."
+}

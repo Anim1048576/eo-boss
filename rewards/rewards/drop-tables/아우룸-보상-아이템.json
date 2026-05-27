@@ -1,0 +1,23 @@
+{
+    "id": "아우룸-보상-아이템",
+    "bossId": "태초의-원석-아우룸",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "가장-순수한-원석",
+                    "quantity": 1
+                }
+            ]
+        },
+        "partyAll": {
+            "entries": [
+                {
+                    "itemId": "아우룸의-원석-비늘",
+                    "quantity": 1
+                }
+            ]
+        }
+    }
+}

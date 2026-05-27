@@ -1,0 +1,19 @@
+{
+    "id": "시텔리-보상-아이템",
+    "bossId": "창명한-고향-시텔리",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "푸르게-빛나는-마음",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "부유하는-별빛",
+                    "quantity": 1
+                }
+            ]
+        }
+    }
+}

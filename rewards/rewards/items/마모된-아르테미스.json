@@ -1,0 +1,19 @@
+{
+    "id": "마모된-아르테미스",
+    "name": "마모된 아르테미스",
+    "origin": {
+        "bossId": "잔해의-수호-기사-리멘",
+        "bossTitle": "잔해의 수호 기사",
+        "bossName": "리멘",
+        "titleLine": "잔해의 수호 기사 - 리멘",
+        "sourcePath": "json/[보스] 잔해의 수호 기사 - 리멘.json"
+    },
+    "description": null,
+    "effects": [],
+    "tagsRaw": "【재료 아이템】【복원 비용 : 150G】",
+    "tags": [
+        "재료 아이템",
+        "복원 비용 : 150G"
+    ],
+    "rawBlock": "【재료 아이템】【복원 비용 : 150G】"
+}

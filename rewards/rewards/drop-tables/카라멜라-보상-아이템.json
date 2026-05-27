@@ -1,0 +1,19 @@
+{
+    "id": "카라멜라-보상-아이템",
+    "bossId": "과자의-마녀-카라멜라",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "아주-맛있는-눈알사탕",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "포크-나이프",
+                    "quantity": 1
+                }
+            ]
+        }
+    }
+}

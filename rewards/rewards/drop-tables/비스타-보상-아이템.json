@@ -1,0 +1,39 @@
+{
+    "id": "비스타-보상-아이템",
+    "bossId": "불쾌한-포식자-비스타",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "일그러진-욕망의-잔류물",
+                    "quantity": 1
+                }
+            ]
+        },
+        "randomPools": [
+            {
+                "count": 2,
+                "allowDuplicate": true,
+                "entries": [
+                    {
+                        "itemId": "부정의-성순",
+                        "quantity": 1
+                    },
+                    {
+                        "itemId": "분노의-성순",
+                        "quantity": 1
+                    },
+                    {
+                        "itemId": "우울의-성순",
+                        "quantity": 1
+                    },
+                    {
+                        "itemId": "수용의-성순",
+                        "quantity": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "id": "카스파-보상-아이템",
+    "bossId": "마탄의-사수-카스파",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "푸른-로브",
+                    "quantity": 1
+                },
+                {
+                    "itemId": "악마의-소총",
+                    "quantity": 1
+                }
+            ]
+        }
+    }
+}

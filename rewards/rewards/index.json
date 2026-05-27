@@ -1,0 +1,1191 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-27T06:00:54.399176+00:00",
+  "source": {
+    "indexPath": "index.json",
+    "dataPath": "json/*.json"
+  },
+  "counts": {
+    "bosses": 17,
+    "items": 52,
+    "dropTables": 17
+  },
+  "fetchPolicy": {
+    "listFirst": "rewards/index.json",
+    "bossDetail": "rewards/by-boss/{bossId}.json",
+    "itemDetail": "rewards/items/{itemId}.json",
+    "dropTableDetail": "rewards/drop-tables/{dropTableId}.json"
+  },
+  "bosses": [
+    {
+      "id": "과자의-마녀-카라멜라",
+      "titleLine": "과자의 마녀 - 카라멜라",
+      "bossTitle": "과자의 마녀",
+      "bossName": "카라멜라",
+      "itemIds": [
+        "아주-맛있는-눈알사탕",
+        "나이프-포크"
+      ],
+      "dropTableIds": [
+        "카라멜라-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/과자의-마녀-카라멜라.json"
+    },
+    {
+      "id": "불쾌한-포식자-비스타",
+      "titleLine": "불쾌한 포식자 - 비스타",
+      "bossTitle": "불쾌한 포식자",
+      "bossName": "비스타",
+      "itemIds": [
+        "일그러진-욕망의-잔류물",
+        "부정의-성순",
+        "분노의-성순",
+        "우울의-성순",
+        "수용의-성순"
+      ],
+      "dropTableIds": [
+        "비스타-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/불쾌한-포식자-비스타.json"
+    },
+    {
+      "id": "이야기-속-마왕-에리데",
+      "titleLine": "이야기 속 마왕 - 에리데",
+      "bossTitle": "이야기 속 마왕",
+      "bossName": "에리데",
+      "itemIds": [
+        "저주-받은-검",
+        "폭군의-반지"
+      ],
+      "dropTableIds": [
+        "에리데-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/이야기-속-마왕-에리데.json"
+    },
+    {
+      "id": "감염된-숲의-짐승",
+      "titleLine": "감염된 숲의 짐승 - 감염된 숲의 짐승의 우두머리",
+      "bossTitle": "감염된 숲의 짐승",
+      "bossName": "감염된 숲의 짐승의 우두머리",
+      "itemIds": [
+        "감염된-우두머리의-오염된-털가죽",
+        "성물-관"
+      ],
+      "dropTableIds": [
+        "감염된-숲의-짐승-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/감염된-숲의-짐승.json"
+    },
+    {
+      "id": "최후의-전장-메탈",
+      "titleLine": "최후의 전장 - 메탈",
+      "bossTitle": "최후의 전장",
+      "bossName": "메탈",
+      "itemIds": [
+        "메탈-도그택",
+        "방편복"
+      ],
+      "dropTableIds": [
+        "메탈-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/최후의-전장-메탈.json"
+    },
+    {
+      "id": "후회와-산탄-데드샷",
+      "titleLine": "후회와 산탄 - 데드샷",
+      "bossTitle": "후회와 산탄",
+      "bossName": "데드샷",
+      "itemIds": [
+        "적염의-산탄총",
+        "추억의-펜던트"
+      ],
+      "dropTableIds": [
+        "데드샷-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/후회와-산탄-데드샷.json"
+    },
+    {
+      "id": "창명한-고향-시텔리",
+      "titleLine": "창명한 고향 - 시텔리",
+      "bossTitle": "창명한 고향",
+      "bossName": "시텔리",
+      "itemIds": [
+        "푸르게-빛나는-마음",
+        "부유하는-별빛"
+      ],
+      "dropTableIds": [
+        "시텔리-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/창명한-고향-시텔리.json"
+    },
+    {
+      "id": "델타-라프",
+      "titleLine": "Δ - 라프",
+      "bossTitle": "델타",
+      "bossName": "라프",
+      "itemIds": [
+        "카본-방탄복",
+        "fs홀스터",
+        "509홀스터",
+        "탄약-박스"
+      ],
+      "dropTableIds": [
+        "라프-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/델타-라프.json"
+    },
+    {
+      "id": "잔해의-수호-기사-리멘",
+      "titleLine": "잔해의 수호 기사 - 리멘",
+      "bossTitle": "잔해의 수호 기사",
+      "bossName": "리멘",
+      "itemIds": [
+        "마모된-테르미누스",
+        "마모된-에스카톤",
+        "마모된-인픽시온",
+        "마모된-아르테미스",
+        "마모된-오르디나토르",
+        "마모된-쿠스토디아",
+        "마모된-아스테리온",
+        "복원된-테르미누스",
+        "복원된-에스카톤",
+        "복원된-인픽시온",
+        "복원된-아르테미스",
+        "복원된-오르디나토르",
+        "복원된-쿠스토디아",
+        "복원된-아스테리온"
+      ],
+      "dropTableIds": [
+        "리멘-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/잔해의-수호-기사-리멘.json"
+    },
+    {
+      "id": "vt-진동-타워",
+      "titleLine": "V.T. - 진동 타워",
+      "bossTitle": "V.T.",
+      "bossName": "진동 타워",
+      "itemIds": [
+        "축전-디스플레이",
+        "진원의-대검"
+      ],
+      "dropTableIds": [
+        "진동-타워-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/vt-진동-타워.json"
+    },
+    {
+      "id": "밤의-악마-a411-nd",
+      "titleLine": "밤의 악마 - A411-ND",
+      "bossTitle": "밤의 악마",
+      "bossName": "A411-ND",
+      "itemIds": [
+        "빌려온-시간",
+        "추적자"
+      ],
+      "dropTableIds": [
+        "a411-nd-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/밤의-악마-a411-nd.json"
+    },
+    {
+      "id": "태초의-원석-아우룸",
+      "titleLine": "태초의 원석 - 아우룸",
+      "bossTitle": "태초의 원석",
+      "bossName": "아우룸",
+      "itemIds": [
+        "가장-순수한-원석",
+        "아우룸의-원석-비늘"
+      ],
+      "dropTableIds": [
+        "아우룸-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/태초의-원석-아우룸.json"
+    },
+    {
+      "id": "평등의-시선-워다니즈",
+      "titleLine": "평등의 시선 - 워다니즈",
+      "bossTitle": "평등의 시선",
+      "bossName": "워다니즈",
+      "itemIds": [
+        "은빠따",
+        "흰-날개옷",
+        "평등의-시선"
+      ],
+      "dropTableIds": [
+        "워다니즈-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/평등의-시선-워다니즈.json"
+    },
+    {
+      "id": "명계의-여제-아누비스",
+      "titleLine": "명계의 여제 - 아누비스",
+      "bossTitle": "명계의 여제",
+      "bossName": "아누비스",
+      "itemIds": [
+        "명계의-펜던트",
+        "카노푸스-단지"
+      ],
+      "dropTableIds": [
+        "아누비스-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/명계의-여제-아누비스.json"
+    },
+    {
+      "id": "극독의-과학자-톡서",
+      "titleLine": "극독의 과학자 - 톡서",
+      "bossTitle": "극독의 과학자",
+      "bossName": "톡서",
+      "itemIds": [
+        "톡신-대거",
+        "화학가스-방독면"
+      ],
+      "dropTableIds": [
+        "톡서-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/극독의-과학자-톡서.json"
+    },
+    {
+      "id": "천체의-주관자-코스모",
+      "titleLine": "천체의 주관자 - 코스모",
+      "bossTitle": "천체의 주관자",
+      "bossName": "코스모",
+      "itemIds": [
+        "척력의-반지",
+        "학자의-로브"
+      ],
+      "dropTableIds": [
+        "코스모-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/천체의-주관자-코스모.json"
+    },
+    {
+      "id": "마탄의-사수-카스파",
+      "titleLine": "마탄의 사수 - 카스파",
+      "bossTitle": "마탄의 사수",
+      "bossName": "카스파",
+      "itemIds": [
+        "푸른-로브",
+        "악마의-소총"
+      ],
+      "dropTableIds": [
+        "카스파-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/마탄의-사수-카스파.json"
+    }
+  ],
+  "items": [
+    {
+      "id": "아주-맛있는-눈알사탕",
+      "name": "아주 맛있는 눈알사탕",
+      "bossId": "과자의-마녀-카라멜라",
+      "bossTitle": "과자의 마녀",
+      "bossName": "카라멜라",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "소모품",
+        "비액션",
+        "재료 아이템"
+      ],
+      "detailPath": "rewards/items/아주-맛있는-눈알사탕.json"
+    },
+    {
+      "id": "나이프-포크",
+      "name": "나이프 & 포크",
+      "bossId": "과자의-마녀-카라멜라",
+      "bossTitle": "과자의 마녀",
+      "bossName": "카라멜라",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "근접 무기",
+        "양손 무기",
+        "검",
+        "나이프",
+        "포크"
+      ],
+      "detailPath": "rewards/items/나이프-포크.json"
+    },
+    {
+      "id": "일그러진-욕망의-잔류물",
+      "name": "일그러진 욕망의 잔류물",
+      "bossId": "불쾌한-포식자-비스타",
+      "bossTitle": "불쾌한 포식자",
+      "bossName": "비스타",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "유물",
+        "보유시 발동"
+      ],
+      "detailPath": "rewards/items/일그러진-욕망의-잔류물.json"
+    },
+    {
+      "id": "부정의-성순",
+      "name": "부정의 성순",
+      "bossId": "불쾌한-포식자-비스타",
+      "bossTitle": "불쾌한 포식자",
+      "bossName": "비스타",
+      "tier": null,
+      "tags": [
+        "재료 아이템",
+        "성순",
+        "방어구 강화 재료",
+        "합성 비용 : 80G"
+      ],
+      "detailPath": "rewards/items/부정의-성순.json"
+    },
+    {
+      "id": "분노의-성순",
+      "name": "분노의 성순",
+      "bossId": "불쾌한-포식자-비스타",
+      "bossTitle": "불쾌한 포식자",
+      "bossName": "비스타",
+      "tier": null,
+      "tags": [
+        "재료 아이템",
+        "성순",
+        "방어구 강화 재료",
+        "합성 비용 : 80G"
+      ],
+      "detailPath": "rewards/items/분노의-성순.json"
+    },
+    {
+      "id": "우울의-성순",
+      "name": "우울의 성순",
+      "bossId": "불쾌한-포식자-비스타",
+      "bossTitle": "불쾌한 포식자",
+      "bossName": "비스타",
+      "tier": null,
+      "tags": [
+        "재료 아이템",
+        "성순",
+        "방어구 강화 재료",
+        "합성 비용 : 80G"
+      ],
+      "detailPath": "rewards/items/우울의-성순.json"
+    },
+    {
+      "id": "수용의-성순",
+      "name": "수용의 성순",
+      "bossId": "불쾌한-포식자-비스타",
+      "bossTitle": "불쾌한 포식자",
+      "bossName": "비스타",
+      "tier": null,
+      "tags": [
+        "재료 아이템",
+        "성순",
+        "방어구 강화 재료",
+        "합성 비용 : 80G"
+      ],
+      "detailPath": "rewards/items/수용의-성순.json"
+    },
+    {
+      "id": "저주-받은-검",
+      "name": "저주 받은 검",
+      "bossId": "이야기-속-마왕-에리데",
+      "bossTitle": "이야기 속 마왕",
+      "bossName": "에리데",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "근접 무기",
+        "양손 무기",
+        "검",
+        "도검"
+      ],
+      "detailPath": "rewards/items/저주-받은-검.json"
+    },
+    {
+      "id": "폭군의-반지",
+      "name": "폭군의 반지",
+      "bossId": "이야기-속-마왕-에리데",
+      "bossTitle": "이야기 속 마왕",
+      "bossName": "에리데",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "장신구",
+        "반지"
+      ],
+      "detailPath": "rewards/items/폭군의-반지.json"
+    },
+    {
+      "id": "감염된-우두머리의-오염된-털가죽",
+      "name": "감염된 우두머리의 오염된 털가죽",
+      "bossId": "감염된-숲의-짐승",
+      "bossTitle": "감염된 숲의 짐승",
+      "bossName": "감염된 숲의 짐승의 우두머리",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "장신구"
+      ],
+      "detailPath": "rewards/items/감염된-우두머리의-오염된-털가죽.json"
+    },
+    {
+      "id": "성물-관",
+      "name": "성물 - 관",
+      "bossId": "감염된-숲의-짐승",
+      "bossTitle": "감염된 숲의 짐승",
+      "bossName": "감염된 숲의 짐승의 우두머리",
+      "tier": "0티어",
+      "tags": [
+        "0티어",
+        "유물",
+        "근접 무기",
+        "관",
+        "무기 2 또는 장신구에 장착 가능",
+        "강화/합성/개조 불가"
+      ],
+      "detailPath": "rewards/items/성물-관.json"
+    },
+    {
+      "id": "메탈-도그택",
+      "name": "메탈 도그택",
+      "bossId": "최후의-전장-메탈",
+      "bossTitle": "최후의 전장",
+      "bossName": "메탈",
+      "tier": "4티어",
+      "tags": [
+        "4티어",
+        "장신구",
+        "인식표"
+      ],
+      "detailPath": "rewards/items/메탈-도그택.json"
+    },
+    {
+      "id": "방편복",
+      "name": "방편복",
+      "bossId": "최후의-전장-메탈",
+      "bossTitle": "최후의 전장",
+      "bossName": "메탈",
+      "tier": "4티어",
+      "tags": [
+        "4티어",
+        "방어구",
+        "조끼",
+        "방어구 2에도 장착 가능"
+      ],
+      "detailPath": "rewards/items/방편복.json"
+    },
+    {
+      "id": "적염의-산탄총",
+      "name": "적염의 산탄총",
+      "bossId": "후회와-산탄-데드샷",
+      "bossTitle": "후회와 산탄",
+      "bossName": "데드샷",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "화기",
+        "총",
+        "산탄총",
+        "1/7",
+        "탄약 : 제한 없음"
+      ],
+      "detailPath": "rewards/items/적염의-산탄총.json"
+    },
+    {
+      "id": "추억의-팬던트",
+      "name": "추억의 팬던트",
+      "bossId": "후회와-산탄-데드샷",
+      "bossTitle": "후회와 산탄",
+      "bossName": "데드샷",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "유물",
+        "팬던트",
+        "보유시 적용"
+      ],
+      "detailPath": "rewards/items/추억의-팬던트.json"
+    },
+    {
+      "id": "푸르게-빛나는-마음",
+      "name": "푸르게 빛나는 마음",
+      "bossId": "창명한-고향-시텔리",
+      "bossTitle": "창명한 고향",
+      "bossName": "시텔리",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "방어구",
+        "의류",
+        "방어구 2에만 장착 가능"
+      ],
+      "detailPath": "rewards/items/푸르게-빛나는-마음.json"
+    },
+    {
+      "id": "부유하는-별빛",
+      "name": "부유하는 별빛",
+      "bossId": "창명한-고향-시텔리",
+      "bossTitle": "창명한 고향",
+      "bossName": "시텔리",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "마도구",
+        "구체",
+        "무기 2에만 장착 가능"
+      ],
+      "detailPath": "rewards/items/부유하는-별빛.json"
+    },
+    {
+      "id": "카본-방탄복",
+      "name": "카본 방탄복",
+      "bossId": "델타-라프",
+      "bossTitle": "델타",
+      "bossName": "라프",
+      "tier": "4티어",
+      "tags": [
+        "4티어",
+        "방어구",
+        "방탄복"
+      ],
+      "detailPath": "rewards/items/카본-방탄복.json"
+    },
+    {
+      "id": "fs홀스터",
+      "name": "FS&홀스터",
+      "bossId": "델타-라프",
+      "bossTitle": "델타",
+      "bossName": "라프",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "화기",
+        "권총",
+        "3/6",
+        "탄약 : 권총탄",
+        "무기 2에도 장착 가능"
+      ],
+      "detailPath": "rewards/items/fs홀스터.json"
+    },
+    {
+      "id": "509홀스터",
+      "name": "509&홀스터",
+      "bossId": "델타-라프",
+      "bossTitle": "델타",
+      "bossName": "라프",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "화기",
+        "권총",
+        "3/6",
+        "탄약 : 권총탄",
+        "무기 2에도 장착 가능"
+      ],
+      "detailPath": "rewards/items/509홀스터.json"
+    },
+    {
+      "id": "탄약-박스",
+      "name": "탄약 박스",
+      "bossId": "델타-라프",
+      "bossTitle": "델타",
+      "bossName": "라프",
+      "tier": null,
+      "tags": [
+        "소모품",
+        "획득 즉시 적용"
+      ],
+      "detailPath": "rewards/items/탄약-박스.json"
+    },
+    {
+      "id": "마모된-테르미누스",
+      "name": "마모된 테르미누스",
+      "bossId": "잔해의-수호-기사-리멘",
+      "bossTitle": "잔해의 수호 기사",
+      "bossName": "리멘",
+      "tier": null,
+      "tags": [
+        "재료 아이템",
+        "복원 비용 : 150G"
+      ],
+      "detailPath": "rewards/items/마모된-테르미누스.json"
+    },
+    {
+      "id": "마모된-에스카톤",
+      "name": "마모된 에스카톤",
+      "bossId": "잔해의-수호-기사-리멘",
+      "bossTitle": "잔해의 수호 기사",
+      "bossName": "리멘",
+      "tier": null,
+      "tags": [
+        "재료 아이템",
+        "복원 비용 : 150G"
+      ],
+      "detailPath": "rewards/items/마모된-에스카톤.json"
+    },
+    {
+      "id": "마모된-인픽시온",
+      "name": "마모된 인픽시온",
+      "bossId": "잔해의-수호-기사-리멘",
+      "bossTitle": "잔해의 수호 기사",
+      "bossName": "리멘",
+      "tier": null,
+      "tags": [
+        "재료 아이템",
+        "복원 비용 : 150G"
+      ],
+      "detailPath": "rewards/items/마모된-인픽시온.json"
+    },
+    {
+      "id": "마모된-아르테미스",
+      "name": "마모된 아르테미스",
+      "bossId": "잔해의-수호-기사-리멘",
+      "bossTitle": "잔해의 수호 기사",
+      "bossName": "리멘",
+      "tier": null,
+      "tags": [
+        "재료 아이템",
+        "복원 비용 : 150G"
+      ],
+      "detailPath": "rewards/items/마모된-아르테미스.json"
+    },
+    {
+      "id": "마모된-오르디나토르",
+      "name": "마모된 오르디나토르",
+      "bossId": "잔해의-수호-기사-리멘",
+      "bossTitle": "잔해의 수호 기사",
+      "bossName": "리멘",
+      "tier": null,
+      "tags": [
+        "재료 아이템",
+        "복원 비용 : 150G"
+      ],
+      "detailPath": "rewards/items/마모된-오르디나토르.json"
+    },
+    {
+      "id": "마모된-쿠스토디아",
+      "name": "마모된 쿠스토디아",
+      "bossId": "잔해의-수호-기사-리멘",
+      "bossTitle": "잔해의 수호 기사",
+      "bossName": "리멘",
+      "tier": null,
+      "tags": [
+        "재료 아이템",
+        "복원 비용 : 150G"
+      ],
+      "detailPath": "rewards/items/마모된-쿠스토디아.json"
+    },
+    {
+      "id": "마모된-아스테리온",
+      "name": "마모된 아스테리온",
+      "bossId": "잔해의-수호-기사-리멘",
+      "bossTitle": "잔해의 수호 기사",
+      "bossName": "리멘",
+      "tier": null,
+      "tags": [
+        "재료 아이템",
+        "복원 비용 : 150G"
+      ],
+      "detailPath": "rewards/items/마모된-아스테리온.json"
+    },
+    {
+      "id": "복원된-테르미누스",
+      "name": "복원된 테르미누스",
+      "bossId": "잔해의-수호-기사-리멘",
+      "bossTitle": "잔해의 수호 기사",
+      "bossName": "리멘",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "근접 무기",
+        "검",
+        "도검"
+      ],
+      "detailPath": "rewards/items/복원된-테르미누스.json"
+    },
+    {
+      "id": "복원된-에스카톤",
+      "name": "복원된 에스카톤",
+      "bossId": "잔해의-수호-기사-리멘",
+      "bossTitle": "잔해의 수호 기사",
+      "bossName": "리멘",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "근접 무기",
+        "양손 무기",
+        "검",
+        "대검"
+      ],
+      "detailPath": "rewards/items/복원된-에스카톤.json"
+    },
+    {
+      "id": "복원된-인픽시온",
+      "name": "복원된 인픽시온",
+      "bossId": "잔해의-수호-기사-리멘",
+      "bossTitle": "잔해의 수호 기사",
+      "bossName": "리멘",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "근접 무기",
+        "양손 무기",
+        "창",
+        "폴암"
+      ],
+      "detailPath": "rewards/items/복원된-인픽시온.json"
+    },
+    {
+      "id": "복원된-아르테미스",
+      "name": "복원된 아르테미스",
+      "bossId": "잔해의-수호-기사-리멘",
+      "bossTitle": "잔해의 수호 기사",
+      "bossName": "리멘",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "원거리 무기",
+        "양손 무기",
+        "활"
+      ],
+      "detailPath": "rewards/items/복원된-아르테미스.json"
+    },
+    {
+      "id": "복원된-오르디나토르",
+      "name": "복원된 오르디나토르",
+      "bossId": "잔해의-수호-기사-리멘",
+      "bossTitle": "잔해의 수호 기사",
+      "bossName": "리멘",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "화기",
+        "총",
+        "소총",
+        "1/10",
+        "탄약 : 구형 탄환"
+      ],
+      "detailPath": "rewards/items/복원된-오르디나토르.json"
+    },
+    {
+      "id": "복원된-코스토디아",
+      "name": "복원된 쿠스토디아",
+      "bossId": "잔해의-수호-기사-리멘",
+      "bossTitle": "잔해의 수호 기사",
+      "bossName": "리멘",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "방패",
+        "2D2"
+      ],
+      "detailPath": "rewards/items/복원된-코스토디아.json"
+    },
+    {
+      "id": "복원된-아스테리온",
+      "name": "복원된 아스트레온",
+      "bossId": "잔해의-수호-기사-리멘",
+      "bossTitle": "잔해의 수호 기사",
+      "bossName": "리멘",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "마도구",
+        "양손 무기"
+      ],
+      "detailPath": "rewards/items/복원된-아스테리온.json"
+    },
+    {
+      "id": "축전-디스플레이",
+      "name": "축전 디스플레이",
+      "bossId": "vt-진동-타워",
+      "bossTitle": "V.T.",
+      "bossName": "진동 타워",
+      "tier": "4티어",
+      "tags": [
+        "4티어",
+        "장신구",
+        "손목 밴드"
+      ],
+      "detailPath": "rewards/items/축전-디스플레이.json"
+    },
+    {
+      "id": "진원의-대검",
+      "name": "진원의 대검",
+      "bossId": "vt-진동-타워",
+      "bossTitle": "V.T.",
+      "bossName": "진동 타워",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "근접 무기",
+        "양손 무기",
+        "검",
+        "대검"
+      ],
+      "detailPath": "rewards/items/진원의-대검.json"
+    },
+    {
+      "id": "빌려온-시간",
+      "name": "빌려온 시간",
+      "bossId": "밤의-악마-a411-nd",
+      "bossTitle": "밤의 악마",
+      "bossName": "A411-ND",
+      "tier": "4티어",
+      "tags": [
+        "4티어",
+        "방어구",
+        "사슬"
+      ],
+      "detailPath": "rewards/items/빌려온-시간.json"
+    },
+    {
+      "id": "추적자",
+      "name": "추적자",
+      "bossId": "밤의-악마-a411-nd",
+      "bossTitle": "밤의 악마",
+      "bossName": "A411-ND",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "근접 무기",
+        "검",
+        "단검",
+        "무기 2에만 장착 가능"
+      ],
+      "detailPath": "rewards/items/추적자.json"
+    },
+    {
+      "id": "가장-순수한-원석",
+      "name": "가장 순수한 원석",
+      "bossId": "태초의-원석-아우룸",
+      "bossTitle": "태초의 원석",
+      "bossName": "아우룸",
+      "tier": null,
+      "tags": [
+        "재료 아이템"
+      ],
+      "detailPath": "rewards/items/가장-순수한-원석.json"
+    },
+    {
+      "id": "아우룸의-원석-비늘",
+      "name": "아우룸의 원석 비늘",
+      "bossId": "태초의-원석-아우룸",
+      "bossTitle": "태초의 원석",
+      "bossName": "아우룸",
+      "tier": null,
+      "tags": [
+        "재료 아이템"
+      ],
+      "detailPath": "rewards/items/아우룸의-원석-비늘.json"
+    },
+    {
+      "id": "은빠따",
+      "name": "은빠따",
+      "bossId": "평등의-시선-워다니즈",
+      "bossTitle": "평등의 시선",
+      "bossName": "워다니즈",
+      "tier": "4티어",
+      "tags": [
+        "4티어",
+        "근접 무기",
+        "둔기"
+      ],
+      "detailPath": "rewards/items/은빠따.json"
+    },
+    {
+      "id": "흰-날개옷",
+      "name": "흰 날개옷",
+      "bossId": "평등의-시선-워다니즈",
+      "bossTitle": "평등의 시선",
+      "bossName": "워다니즈",
+      "tier": "5티어",
+      "tags": [
+        "5티어",
+        "방어구",
+        "의류",
+        "방어구 2에도 장착 가능"
+      ],
+      "detailPath": "rewards/items/흰-날개옷.json"
+    },
+    {
+      "id": "평등의-시선",
+      "name": "평등의 시선",
+      "bossId": "평등의-시선-워다니즈",
+      "bossTitle": "평등의 시선",
+      "bossName": "워다니즈",
+      "tier": "4티어",
+      "tags": [
+        "4티어",
+        "장신구"
+      ],
+      "detailPath": "rewards/items/평등의-시선.json"
+    },
+    {
+      "id": "명계의-펜던트",
+      "name": "명계의 펜던트",
+      "bossId": "명계의-여제-아누비스",
+      "bossTitle": "명계의 여제",
+      "bossName": "아누비스",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "장신구",
+        "팬던트"
+      ],
+      "detailPath": "rewards/items/명계의-펜던트.json"
+    },
+    {
+      "id": "카노푸스-단지",
+      "name": "카노푸스 단지",
+      "bossId": "명계의-여제-아누비스",
+      "bossTitle": "명계의 여제",
+      "bossName": "아누비스",
+      "tier": null,
+      "tags": [
+        "?티어",
+        "유물"
+      ],
+      "detailPath": "rewards/items/카노푸스-단지.json"
+    },
+    {
+      "id": "톡신-대거",
+      "name": "톡신 대거",
+      "bossId": "극독의-과학자-톡서",
+      "bossTitle": "극독의 과학자",
+      "bossName": "톡서",
+      "tier": "4티어",
+      "tags": [
+        "4티어",
+        "근접 무기",
+        "검",
+        "단검",
+        "무기 2에만 장착 가능"
+      ],
+      "detailPath": "rewards/items/톡신-대거.json"
+    },
+    {
+      "id": "화학가스-방독면",
+      "name": "화학가스 방독면",
+      "bossId": "극독의-과학자-톡서",
+      "bossTitle": "극독의 과학자",
+      "bossName": "톡서",
+      "tier": "4티어",
+      "tags": [
+        "4티어",
+        "장신구",
+        "마스크"
+      ],
+      "detailPath": "rewards/items/화학가스-방독면.json"
+    },
+    {
+      "id": "척력의-반지",
+      "name": "척력의 반지",
+      "bossId": "천체의-주관자-코스모",
+      "bossTitle": "천체의 주관자",
+      "bossName": "코스모",
+      "tier": "4티어",
+      "tags": [
+        "4티어",
+        "장신구",
+        "반지"
+      ],
+      "detailPath": "rewards/items/척력의-반지.json"
+    },
+    {
+      "id": "학자의-로브",
+      "name": "학자의 로브",
+      "bossId": "천체의-주관자-코스모",
+      "bossTitle": "천체의 주관자",
+      "bossName": "코스모",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "방어구",
+        "의복",
+        "방어구 2에만 장착 가능"
+      ],
+      "detailPath": "rewards/items/학자의-로브.json"
+    },
+    {
+      "id": "악마의-소총",
+      "name": "악마의 소총",
+      "bossId": "마탄의-사수-카스파",
+      "bossTitle": "마탄의 사수",
+      "bossName": "카스파",
+      "tier": "4티어",
+      "tags": [
+        "4티어",
+        "원거리 무기",
+        "총",
+        "1/10",
+        "탄약 : 푸른 마탄"
+      ],
+      "detailPath": "rewards/items/악마의-소총.json"
+    },
+    {
+      "id": "푸른-로브",
+      "name": "푸른 로브",
+      "bossId": "마탄의-사수-카스파",
+      "bossTitle": "마탄의 사수",
+      "bossName": "카스파",
+      "tier": "5티어",
+      "tags": [
+        "5티어",
+        "방어구 2에만 장착 가능"
+      ],
+      "detailPath": "rewards/items/푸른-로브.json"
+    }
+  ],
+  "dropTables": [
+    {
+      "id": "카라멜라-보상-아이템",
+      "bossId": "과자의-마녀-카라멜라",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/카라멜라-보상-아이템.json"
+    },
+    {
+      "id": "비스타-보상-아이템",
+      "bossId": "불쾌한-포식자-비스타",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/비스타-보상-아이템.json"
+    },
+    {
+      "id": "에리데-보상-아이템",
+      "bossId": "이야기-속-마왕-에리데",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/에리데-보상-아이템.json"
+    },
+    {
+      "id": "감염된-숲의-짐승-보상-아이템",
+      "bossId": "감염된-숲의-짐승",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/감염된-숲의-짐승-보상-아이템.json"
+    },
+    {
+      "id": "메탈-보상-아이템",
+      "bossId": "최후의-전장-메탈",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/메탈-보상-아이템.json"
+    },
+    {
+      "id": "데드샷-보상-아이템",
+      "bossId": "후회와-산탄-데드샷",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/데드샷-보상-아이템.json"
+    },
+    {
+      "id": "시텔리-보상-아이템",
+      "bossId": "창명한-고향-시텔리",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/시텔리-보상-아이템.json"
+    },
+    {
+      "id": "라프-보상-아이템",
+      "bossId": "델타-라프",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/라프-보상-아이템.json"
+    },
+    {
+      "id": "리멘-보상-아이템",
+      "bossId": "잔해의-수호-기사-리멘",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/리멘-보상-아이템.json"
+    },
+    {
+      "id": "진동-타워-보상-아이템",
+      "bossId": "vt-진동-타워",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/진동-타워-보상-아이템.json"
+    },
+    {
+      "id": "a411-nd-보상-아이템",
+      "bossId": "밤의-악마-a411-nd",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/a411-nd-보상-아이템.json"
+    },
+    {
+      "id": "아우룸-보상-아이템",
+      "bossId": "태초의-원석-아우룸",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/아우룸-보상-아이템.json"
+    },
+    {
+      "id": "워다니즈-보상-아이템",
+      "bossId": "평등의-시선-워다니즈",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/워다니즈-보상-아이템.json"
+    },
+    {
+      "id": "아누비스-보상-아이템",
+      "bossId": "명계의-여제-아누비스",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/아누비스-보상-아이템.json"
+    },
+    {
+      "id": "톡서-보상-아이템",
+      "bossId": "극독의-과학자-톡서",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/톡서-보상-아이템.json"
+    },
+    {
+      "id": "코스모-보상-아이템",
+      "bossId": "천체의-주관자-코스모",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/코스모-보상-아이템.json"
+    },
+    {
+      "id": "카스파-보상-아이템",
+      "bossId": "마탄의-사수-카스파",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/카스파-보상-아이템.json"
+    }
+  ]
+}
