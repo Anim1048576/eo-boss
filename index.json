@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-16T10:04:34.288967+00:00",
+  "generatedAt": "2026-05-27T06:00:54.399176+00:00",
   "bossCount": 17,
   "bosses": [
     {
@@ -78,7 +78,7 @@
     {
       "id": "창명한-고향-시텔리",
       "titleLine": "창명한 고향 - 시텔리",
-      "bossTitle": "[보스] 창명한 고향 - 시텔리",
+      "bossTitle": "창명한 고향",
       "bossName": "시텔리",
       "sessionDate": "2026-02-01",
       "difficulty": "중상",
@@ -90,7 +90,7 @@
     {
       "id": "델타-라프",
       "titleLine": "Δ - 라프",
-      "bossTitle": "[보스] Δ - 라프",
+      "bossTitle": "델타",
       "bossName": "라프",
       "sessionDate": "2026-01-29",
       "difficulty": "상",
@@ -102,7 +102,7 @@
     {
       "id": "잔해의-수호-기사-리멘",
       "titleLine": "잔해의 수호 기사 - 리멘",
-      "bossTitle": "[보스] 잔해의 수호 기사 - 리멘",
+      "bossTitle": "잔해의 수호 기사",
       "bossName": "리멘",
       "sessionDate": "2026-01-19",
       "difficulty": "상",
