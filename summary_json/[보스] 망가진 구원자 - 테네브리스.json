@@ -1,0 +1,123 @@
+{
+    "sourceFile": "[보스] 망가진 구원자 - 테네브리스.txt",
+    "titleLine": "망가진 구원자 - 테네브리스",
+    "bossTitle": "망가진 구원자",
+    "bossNameHintFromTitle": "테네브리스",
+    "quest": {
+        "issuer": "에오르디아의 탐사원",
+        "title": "침수지 탐사 인원 모집",
+        "reward": {
+            "gold": 40,
+            "xp": 15,
+            "raw": "15XP / 40G"
+        },
+        "recommendedParty": "3인 이상",
+        "recommendedRoles": "원거리, 이동력이 빠른 사람",
+        "difficulty": "하",
+        "sessionDate": "2026-06-23"
+    },
+    "bosses": [
+        {
+            "phase": 1,
+            "statsParsed": {
+                "raw": {
+                    "이름": "테네브리스",
+                    "생명점": "66",
+                    "이동력": "1",
+                    "맵 크기": "13×13",
+                    "보스 크기": "1×1",
+                    "판정": {
+                        "능력치": {
+                            "기술": "특화",
+                            "감각": "취약",
+                            "교양": "일반",
+                            "신체": "특화"
+                        },
+                        "재정의": true
+                    },
+                    "백병 승리 피해": "1D6",
+                    "백병 패배 피해": "1D6/2U"
+                },
+                "name": "테네브리스",
+                "hp": {
+                    "raw": "66",
+                    "base": 66,
+                    "start": 66
+                },
+                "move": 1,
+                "mapSize": {
+                    "width": 13,
+                    "height": 13,
+                    "raw": "13×13"
+                },
+                "bossSize": {
+                    "width": 1,
+                    "height": 1,
+                    "raw": "1×1"
+                },
+                "checks": {
+                    "ability": {
+                        "기술": "특화",
+                        "감각": "취약",
+                        "교양": "일반",
+                        "신체": "특화"
+                    },
+                    "override": true
+                },
+                "meleeWinDamage": "1D6",
+                "meleeLoseDamage": "1D6/2U"
+            }
+        },
+        {
+            "phase": 2,
+            "statsParsed": {
+                "raw": {
+                    "이름": "테네브리스",
+                    "생명점": "101",
+                    "이동력": "1",
+                    "맵 크기": "13×13",
+                    "보스 크기": "1×1",
+                    "판정": {
+                        "능력치": {
+                            "기술": "특화",
+                            "감각": "취약",
+                            "교양": "일반",
+                            "신체": "특화"
+                        },
+                        "재정의": true
+                    },
+                    "백병 승리 피해": "1D6",
+                    "백병 패배 피해": "1D6/2U"
+                },
+                "name": "테네브리스",
+                "hp": {
+                    "raw": "101",
+                    "base": 101,
+                    "start": 101
+                },
+                "move": 1,
+                "mapSize": {
+                    "width": 13,
+                    "height": 13,
+                    "raw": "13×13"
+                },
+                "bossSize": {
+                    "width": 1,
+                    "height": 1,
+                    "raw": "1×1"
+                },
+                "checks": {
+                    "ability": {
+                        "기술": "특화",
+                        "감각": "취약",
+                        "교양": "일반",
+                        "신체": "특화"
+                    },
+                    "override": true
+                },
+                "meleeWinDamage": "1D6",
+                "meleeLoseDamage": "1D6/2U"
+            }
+        }
+    ]
+}

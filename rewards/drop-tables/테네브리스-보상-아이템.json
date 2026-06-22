@@ -1,0 +1,23 @@
+{
+    "id": "테네브리스-보상-아이템",
+    "bossId": "망가진-구원자-테네브리스",
+    "trigger": "보스의 처치",
+    "grantsRewards": {
+        "fixed": {
+            "entries": [
+                {
+                    "itemId": "타락한-정의의-결정",
+                    "quantity": 1
+                }
+            ]
+        },
+        "partyAll": {
+            "entries": [
+                {
+                    "itemId": "왜곡된-정의의-파편",
+                    "quantity": 1
+                }
+            ]
+        }
+    }
+}

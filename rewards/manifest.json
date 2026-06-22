@@ -2,9 +2,9 @@
     "schemaVersion": 1,
     "generatedAt": "2026-05-27T06:00:54.399176+00:00",
     "counts": {
-        "bosses": 17,
-        "items": 52,
-        "dropTables": 17
+        "bosses": 18,
+        "items": 54,
+        "dropTables": 18
     },
     "paths": {
         "index": "rewards/index.json",
@@ -13,6 +13,13 @@
         "dropTable": "rewards/drop-tables/{dropTableId}.json"
     },
     "bosses": [
+        {
+            "id": "망가진-구원자-테네브리스",
+            "titleLine": "망가진 구원자 - 테네브리스",
+            "itemCount": 2,
+            "dropTableCount": 1,
+            "path": "rewards/by-boss/망가진-구원자-테네브리스.json"
+        },
         {
             "id": "과자의-마녀-카라멜라",
             "titleLine": "과자의 마녀 - 카라멜라",

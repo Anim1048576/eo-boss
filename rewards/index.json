@@ -6,9 +6,9 @@
     "dataPath": "json/*.json"
   },
   "counts": {
-    "bosses": 17,
-    "items": 52,
-    "dropTables": 17
+    "bosses": 18,
+    "items": 54,
+    "dropTables": 18
   },
   "fetchPolicy": {
     "listFirst": "rewards/index.json",
@@ -17,6 +17,20 @@
     "dropTableDetail": "rewards/drop-tables/{dropTableId}.json"
   },
   "bosses": [
+    {
+      "id": "망가진-구원자-테네브리스",
+      "titleLine": "망가진 구원자 - 테네브리스",
+      "bossTitle": "망가진 구원자",
+      "bossName": "테네브리스",
+      "itemIds": [
+          "타락한-정의의-결정",
+          "왜곡된-정의의-파편"
+      ],
+      "dropTableIds": [
+          "테네브리스-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/망가진-구원자-테네브리스.json"
+    },
     {
       "id": "과자의-마녀-카라멜라",
       "titleLine": "과자의 마녀 - 카라멜라",
@@ -275,6 +289,32 @@
     }
   ],
   "items": [
+    {
+      "id": "타락한-정의의-결정",
+      "name": "타락한 정의의 결정",
+      "bossId": "망가진-구원자-테네브리스",
+      "bossTitle": "망가진 구원자",
+      "bossName": "테네브리스",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "유물",
+        "보유시 발동"
+      ],
+      "detailPath": "rewards/items/타락한-정의의-결정.json"
+    },
+    {
+      "id": "왜곡된-정의의-파편",
+      "name": "왜곡된 정의의 파편",
+      "bossId": "망가진-구원자-테네브리스",
+      "bossTitle": "망가진 구원자",
+      "bossName": "테네브리스",
+      "tier": null,
+      "tags": [
+        "재료 아이템"
+      ],
+      "detailPath": "rewards/items/왜곡된-정의의-파편.json"
+    },
     {
       "id": "아주-맛있는-눈알사탕",
       "name": "아주 맛있는 눈알사탕",
@@ -1035,6 +1075,15 @@
     }
   ],
   "dropTables": [
+    {
+      "id": "테네브리스-보상-아이템",
+      "bossId": "망가진-구원자-테네브리스",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/테네브리스-보상-아이템.json"
+    },
     {
       "id": "카라멜라-보상-아이템",
       "bossId": "과자의-마녀-카라멜라",

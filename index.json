@@ -1,8 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-27T06:00:54.399176+00:00",
-  "bossCount": 17,
+  "generatedAt": "2026-06-22T19:55:01.734935+00:00",
+  "bossCount": 18,
   "bosses": [
+    {
+      "id": "망가진-구원자-테네브리스",
+      "titleLine": "망가진 구원자 - 테네브리스",
+      "bossTitle": "망가진 구원자",
+      "bossName": "테네브리스",
+      "sessionDate": "2026-06-23",
+      "difficulty": "하",
+      "recommendedParty": "원거리, 이동력이 빠른 사람",
+      "summaryPath": "summary_json/[보스] 망가진 구원자 - 테네브리스.json",
+      "fullPath": "json/[보스] 망가진 구원자 - 테네브리스.json",
+      "txtPath": "txt/[보스] 망가진 구원자 - 테네브리스.txt"
+    },
     {
       "id": "과자의-마녀-카라멜라",
       "titleLine": "과자의 마녀 - 카라멜라",
