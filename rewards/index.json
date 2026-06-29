@@ -6,9 +6,9 @@
     "dataPath": "json/*.json"
   },
   "counts": {
-    "bosses": 18,
-    "items": 54,
-    "dropTables": 18
+    "bosses": 19,
+    "items": 58,
+    "dropTables": 20
   },
   "fetchPolicy": {
     "listFirst": "rewards/index.json",
@@ -17,6 +17,23 @@
     "dropTableDetail": "rewards/drop-tables/{dropTableId}.json"
   },
   "bosses": [
+    {
+      "id": "홀로-남은-왕-아스트로프",
+      "titleLine": "홀로 남은 왕 - 아스트로프",
+      "bossTitle": "홀로 남은 왕",
+      "bossName": "아스트로프",
+      "itemIds": [
+        "소원-서린-창",
+        "고독-서린-왕관",
+        "망가진-루베리아의-창",
+        "다알리아의-반지"
+      ],
+      "dropTableIds": [
+        "아스트로프-처치-보상-아이템",
+        "루베리아-해방-보상-아이템"
+      ],
+      "itemsPath": "rewards/by-boss/홀로-남은-왕-아스트로프.json"
+    },
     {
       "id": "망가진-구원자-테네브리스",
       "titleLine": "망가진 구원자 - 테네브리스",
@@ -289,6 +306,72 @@
     }
   ],
   "items": [
+    {
+      "id": "소원-서린-창",
+      "name": "소원 서린 창",
+      "bossId": "홀로-남은-왕-아스트로프",
+      "bossTitle": "홀로 남은 왕",
+      "bossName": "아스트로프",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "유물",
+        "근접 무기",
+        "창",
+        "1/5",
+        "무기 2에도 장착 가능",
+        "재료로 사용 불가"
+      ],
+      "detailPath": "rewards/items/소원-서린-창.json"
+    },
+    {
+      "id": "고독-서린-왕관",
+      "name": "고독 서린 왕관",
+      "bossId": "홀로-남은-왕-아스트로프",
+      "bossTitle": "홀로 남은 왕",
+      "bossName": "아스트로프",
+      "tier": "3티어",
+      "tags": [
+        "3티어",
+        "유물",
+        "장신구",
+        "재료로 사용 불가"
+      ],
+      "detailPath": "rewards/items/고독-서린-왕관.json"
+    },
+    {
+      "id": "망가진-루베리아의-창",
+      "name": "망가진 루베리아의 창",
+      "bossId": "홀로-남은-왕-아스트로프",
+      "bossTitle": "홀로 남은 왕",
+      "bossName": "아스트로프",
+      "tier": "?티어",
+      "tags": [
+        "?티어",
+        "유물",
+        "근접 무기",
+        "창",
+        "재료로 사용 불가",
+        "수리 필요"
+      ],
+      "detailPath": "rewards/items/망가진-루베리아의-창.json"
+    },
+    {
+      "id": "다알리아의-반지",
+      "name": "다알리아의 반지",
+      "bossId": "홀로-남은-왕-아스트로프",
+      "bossTitle": "홀로 남은 왕",
+      "bossName": "아스트로프",
+      "tier": "?티어",
+      "tags": [
+        "?티어",
+        "유물",
+        "장신구",
+        "반지",
+        "재료로 사용 불가"
+      ],
+      "detailPath": "rewards/items/다알리아의-반지.json"
+    },
     {
       "id": "타락한-정의의-결정",
       "name": "타락한 정의의 결정",
@@ -1075,6 +1158,30 @@
     }
   ],
   "dropTables": [
+    {
+      "id": "아스트로프-처치-보상-아이템",
+      "bossId": "홀로-남은-왕-아스트로프",
+      "trigger": "보스의 처치",
+      "fixedItemIds": [
+        "소원-서린-창",
+        "고독-서린-왕관"
+      ],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/아스트로프-처치-보상-아이템.json"
+    },
+    {
+      "id": "루베리아-해방-보상-아이템",
+      "bossId": "홀로-남은-왕-아스트로프",
+      "trigger": "소녀를 운명에서 해방시킨다.",
+      "fixedItemIds": [
+        "망가진-루베리아의-창",
+        "다알리아의-반지"
+      ],
+      "randomPoolItemIds": [],
+      "partyAllItemIds": [],
+      "detailPath": "rewards/drop-tables/루베리아-해방-보상-아이템.json"
+    },
     {
       "id": "테네브리스-보상-아이템",
       "bossId": "망가진-구원자-테네브리스",

@@ -1,8 +1,21 @@
 {
   "version": 1,
   "generatedAt": "2026-06-22T19:55:01.734935+00:00",
-  "bossCount": 18,
+  "bossCount": 19,
   "bosses": [
+    {
+      "id": "홀로-남은-왕-아스트로프",
+      "titleLine": "홀로 남은 왕 - 아스트로프",
+      "bossTitle": "홀로 남은 왕",
+      "bossName": "아스트로프",
+      "author": "세르",
+      "sessionDate": "2026-06-25",
+      "difficulty": "극상",
+      "recommendedParty": "불명",
+      "summaryPath": "summary_json/[보스] 홀로 남은 왕 - 아스트로프.json",
+      "fullPath": "json/[보스] 홀로 남은 왕 - 아스트로프.json",
+      "txtPath": "txt/[보스] 홀로 남은 왕 - 아스트로프.txt"
+    },
     {
       "id": "망가진-구원자-테네브리스",
       "titleLine": "망가진 구원자 - 테네브리스",

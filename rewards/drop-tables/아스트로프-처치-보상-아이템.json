@@ -1,0 +1,19 @@
+{
+  "id": "아스트로프-처치-보상-아이템",
+  "bossId": "홀로-남은-왕-아스트로프",
+  "trigger": "보스의 처치",
+  "grantsRewards": {
+    "fixed": {
+      "entries": [
+        {
+          "itemId": "소원-서린-창",
+          "quantity": 1
+        },
+        {
+          "itemId": "고독-서린-왕관",
+          "quantity": 1
+        }
+      ]
+    }
+  }
+}
